@@ -1,0 +1,7 @@
+<% const {fuente, codigo} = imagen %>
+<figure class= <%- css_class %> id= <%= codigo %>  >
+    <%- include("../01.elementos/imagen.ejs",{
+        css_class:sub_class,
+        fuente
+    }) %> 
+</figure>

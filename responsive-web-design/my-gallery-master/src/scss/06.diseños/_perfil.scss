@@ -1,0 +1,6 @@
+.perfil {
+  @include display-flex(column, space-between, center);
+  & > * + * {
+    margin-top: 1.54vh; /* (12 * 100 / 776) */
+  }
+}

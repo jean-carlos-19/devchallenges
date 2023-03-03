@@ -1,0 +1,17 @@
+.figura {
+  flex-basis: 100%;
+  @include display-flex(column, center, center);
+  & > * + * {
+    margin-top: 1rem; /* (16 / 16) */
+  }
+  .imagen-figura {
+    max-width: 37.86%; /* (142 * 100 / 375) */
+    border-radius: 1rem; /* 16 / 16 */
+  }
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    .imagen-figura {
+      max-width: 25%; /* (217 * 100 / 1440) */
+    }
+  }
+}

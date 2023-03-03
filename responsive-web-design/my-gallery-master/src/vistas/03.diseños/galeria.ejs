@@ -1,0 +1,18 @@
+<% const {informacion} = galeria; %> 
+<div class="galeria">
+    <% informacion.forEach((imagen,i)=>{ %>
+
+        <% if( !Array.isArray(imagen) ){ %>
+
+            <%- include("../02.componentes/foto.ejs",{css_class:'"foto foto-galeria"',sub_class:'"imagen imagen-foto"',imagen}) %> 
+
+        <% } %>
+        <%  if( Array.isArray(imagen) ){ %>
+          
+            <%- include("./sub-imagen.ejs",{imagen}) %> 
+            
+        <% } %>
+    <% }) %> 
+
+  
+</div>

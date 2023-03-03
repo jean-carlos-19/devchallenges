@@ -1,0 +1,4 @@
+.galeria {
+  align-self: center;
+  @include display-grid(3, 3, 12.5rem, 0.25rem);
+}

@@ -1,0 +1,13 @@
+<div class="sub-imagenes sub-imagenes-galeria">
+
+    <% imagen.forEach((sub_imagen)=>{ %>
+   
+        <%- include("../02.componentes/foto.ejs",{
+            css_class:'"foto foto-sub-imagen"',
+            sub_class:'"imagen imagen-foto"',
+            imagen:sub_imagen
+        }) %> 
+
+    <% }) %> 
+
+</div>

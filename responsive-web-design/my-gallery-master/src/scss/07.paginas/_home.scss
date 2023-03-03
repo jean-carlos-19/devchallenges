@@ -1,0 +1,12 @@
+.home {
+  max-width: var(--ancho-maximo);
+  max-height: var(--altura-maximo);
+  height: 100vmax;
+  margin: 0 auto;
+  padding: var(--relleno-home);
+  animation: apareceSitio 0.8s linear;
+  @include display-flex(column, space-between, center);
+  & > * + * {
+    margin-top: 2.5rem; /* (40 / 16) */
+  }
+}

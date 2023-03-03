@@ -1,0 +1,11 @@
+.sub-imagenes {
+  grid-column: 1/ 3;
+  grid-row: 2/ 3;
+  margin-top: 0;
+  @include display-grid(2, 2, 12.5rem, 0.25rem);
+
+  #img-4 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+}

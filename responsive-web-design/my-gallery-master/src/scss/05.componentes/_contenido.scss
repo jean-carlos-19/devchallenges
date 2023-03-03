@@ -1,0 +1,10 @@
+.contenido {
+  max-width: 20.8vw; /* (78 * 100 / 375) */
+  padding: 0.62rem 0.93rem; /*(10 / 16) , (15 / 16) */
+  border-radius: 0.75rem; /* (12 / 16) */
+  margin-top: 0;
+  @include display-flex(column, space-between, center);
+  & > * + * {
+    margin-top: 0.625rem; /* (10 / 16) */
+  }
+}

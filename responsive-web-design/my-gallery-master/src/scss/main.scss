@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 
+Movil:
+  base:375px
+  altura:776px
+Escritorio:
+  base:1440px
+  altura:1080px
+*/
+
+@import "./01.resumenes/variables", "./01.resumenes/mixins";
+
+/* @import "./02.proveedores/"; */
+
+@import "./03.base/fuentes", "./03.base/animaciones", "./03.base/normalizar",
+  "./03.base/fondo", "./03.base/colores", "./03.base/tipografia",
+  "./03.base/base";
+
+@import "./04.elementos/imagen.scss";
+
+@import "./05.componentes/contenido", "./05.componentes/descripcion",
+  "./05.componentes/figura", "./05.componentes/foto",
+  "./05.componentes/pie_pagina";
+
+@import "./06.diseños/galeria", "./06.diseños/informacion",
+  "./06.diseños/perfil", "./06.diseños/subimagenes";
+
+@import "./07.paginas/home";
+
+/* @import "./08.temas/"; */

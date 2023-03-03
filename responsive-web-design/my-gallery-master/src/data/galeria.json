@@ -1,0 +1,31 @@
+{
+  "informacion": [
+    {
+      "fuente": "../assets/img/photo1.png",
+      "codigo": "img-1"
+    },
+    {
+      "fuente": "../assets/img/photo2.png",
+      "codigo": "img-2"
+    },
+    {
+      "fuente": "../assets/img/photo3.png",
+      "codigo": "img-3"
+    },
+
+    [
+      {
+        "fuente": "../assets/img/photo4.png",
+        "codigo": "img-4"
+      },
+      {
+        "fuente": "../assets/img/photo5.png",
+        "codigo": "img-5"
+      },
+      {
+        "fuente": "../assets/img/photo6.png",
+        "codigo": "img-6"
+      }
+    ]
+  ]
+}
