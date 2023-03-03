@@ -1,0 +1,9 @@
+.barra {
+  border-radius: var(--tamano-borde);
+  .nivel-barra {
+    width: 50%;
+    border-radius: var(--tamano-borde);
+    display: block;
+    padding: 0.5rem;
+  }
+}

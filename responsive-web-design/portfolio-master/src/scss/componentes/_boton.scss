@@ -1,0 +1,12 @@
+.boton {
+  background-color: transparent;
+  border: none;
+  .enlace-boton {
+    display: block;
+    padding: 0.8125rem 2.5rem; /* (13 / 16), (40 / 16) */
+    border-radius: var(--tamano-borde);
+    &.enlace__codigo {
+      border: 1px solid var(--col-azul-100);
+    }
+  }
+}

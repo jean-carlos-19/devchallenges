@@ -1,0 +1,29 @@
+.hobbies {
+  padding: var(--tamano-relleno);
+  border-radius: var(--tamano-borde);
+  & > * + * {
+    margin-top: 2.25rem; /* (36 / 16) */
+  }
+
+  .contenido-hobbies {
+    overflow: auto;
+    @include display-flex(row, flex-start, stretch);
+    & > * + * {
+      margin-left: 1rem; /* (16 / 16) */
+    }
+  }
+
+  @media screen and (min-width: 62.5rem) {
+    max-width: 25.93875rem; /* (415.02 / 16) */
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+    .contenido-hobbies {
+      display: block;
+      & > * + * {
+        margin-left: 0; /* (0 / 16) */
+        margin-top: 1rem; /* 16 / 16 */
+      }
+    }
+  }
+}

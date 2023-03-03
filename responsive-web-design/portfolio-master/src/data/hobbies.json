@@ -1,0 +1,22 @@
+{
+  "informacion": [
+    {
+      "fuente": "./assets/img/movie.jpg",
+      "alt": "",
+      "titulo": "Peliculas",
+      "descripcion": "Uno de mis pasatiempos es ver peliculas, por lo general peliculas de suspenso, drama e intriga como Interestelar, Talentos Ocultos, El Hoyo etc"
+    },
+    {
+      "fuente": "./assets/img/powerlifting.jpg",
+      "alt": "",
+      "titulo": "Powerlifiting",
+      "descripcion": "He participado varias veces en campeonatos nacionales de levantamiento de potencia teniendo records nacionales y sudamerica en la categoria de 59Kg."
+    },
+    {
+      "fuente": "./assets/img/ciclismo.png",
+      "alt": "",
+      "titulo": "Ciclismo",
+      "descripcion": "Me gusta hacer rutas de carretera y de montaña, por lo general de portoviejo a crucita y la tomatera."
+    }
+  ]
+}

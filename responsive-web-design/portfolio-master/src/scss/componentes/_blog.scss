@@ -1,0 +1,29 @@
+.blog {
+  & > * + * {
+    margin-top: 1rem; /* (16 / 16) */
+  }
+  .cabecera-2-experiencia {
+    padding: 1.375rem; /* (22 / 16) */
+    border-radius: var(--tamano-borde);
+  }
+  .descripcion-blog {
+    .cuerpo-1-descripcion {
+      margin-top: 1.625rem; /* (26 / 16) */
+      max-width: 700px;
+      min-width: 292px;
+      max-height: 100px;
+      min-height: auto;
+      overflow: auto;
+    }
+
+    .enlace-descripcion {
+      display: block;
+      margin-top: 1.3125; /* (21 / 16) */
+    }
+  }
+  @media screen and (min-width: 50rem) {
+    max-width: 37rem; /* (592 / 16) */
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+}

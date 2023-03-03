@@ -1,0 +1,9 @@
+.derecha {
+  & > * + * {
+    margin-top: 2.25rem; /* (36 / 16) */
+  }
+
+  @media screen and (min-width: 62.5rem) {
+    width: 100%;
+  }
+}

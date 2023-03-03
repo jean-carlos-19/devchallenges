@@ -1,0 +1,18 @@
+.fila {
+  & > * + * {
+    margin-top: 1.9375rem; /* (31 / 16) */
+  }
+  @media screen and (min-width: 62.5rem) {
+    @include display-flex(row, space-between, stretch);
+
+    & > * + * {
+      margin-top: 0; /* (0 / 16) */
+    }
+    &:last-child {
+      & > * + * {
+        margin-top: 1.9375rem; /* (31 / 16) */
+      }
+      display: block;
+    }
+  }
+}

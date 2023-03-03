@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 
+Movil
+    base:375px
+    altura:776
+Escriotrio
+    base:1440px
+    altura:1080px
+*/
+
+@import "resumenes/variables", "resumenes/mixin";
+
+/* @import "proveedores/"; */
+
+@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base";
+
+@import "./diseño/izquierda", "./diseño/derecha", "diseño/presentacion",
+  "./diseño/descripcion", "./diseño/fila", "diseño/columna",
+  "./diseño/experiencia", "./diseño/hobbies", "./diseño/tecnologia",
+  "./diseño/herramientas", "./diseño/proyectos";
+
+@import "componentes/area", "./componentes/entretenimiento",
+  "./componentes/lenguajes", "./componentes/barra", "./componentes/desafio",
+  "./componentes/boton", "./componentes/blog", "./componentes/publicacion";
+
+@import "paginas/home";
+
+/* @import "temas/"; */

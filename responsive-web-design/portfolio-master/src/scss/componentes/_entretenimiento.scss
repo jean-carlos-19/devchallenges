@@ -1,0 +1,16 @@
+.entretenimiento {
+  max-width: 379.66px;
+  min-width: 307px;
+  & > * + * {
+    margin-top: 1.625rem; /* (26 / 16) */
+  }
+  .imagen-figura {
+    width: 23.0625rem; /* (369 / 16) */
+    height: 8.6875rem; /* (139 / 16) */
+  }
+  .descripcion-hobbies {
+    .cuerpo-2-descripcion {
+      margin-top: 0.625rem; /* (10 / 16) */
+    }
+  }
+}

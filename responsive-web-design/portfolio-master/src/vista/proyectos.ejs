@@ -1,0 +1,155 @@
+<section class="proyectos">
+  <h2 class="cabecera-2 cabecera-2-proyectos fon-blanco-100 col-oscuro-100"> Responsive Web Developer (8)</h2>
+  
+  <div class="contenido contenido-proyectos">
+    <% proyectos.informacion.forEach((proyecto)=>{ %>
+      <% const {fuente,alt,lenguajes,titulo,descripcion,demo,codigo} = proyecto; %> 
+      
+      <section class="desafio desafio-proyectos fon-blanco-100">
+        <figure class="figura figura-desafio">
+          <img
+            class="imagen imagen-figura"
+            src=<%= fuente %> 
+            alt=<%= alt %>
+          />
+        </figure>
+        <figcaption class="descripcion descripcion-desafio">
+          <div class="lenguajes lenguajes-descripcion">
+            <% lenguajes.forEach((lenguaje)=>{ %>
+              <span class="cuerpo-1 cuerpo-1-descripcion col-gris-200"> #<%= lenguaje %>  </span>
+            <% }); %> 
+          </div>
+          <h2 class="cabecera-1 cabecera-1-descripcion col-oscuro-100"><%= titulo %></h2>
+          <p class="cuerpo-1 cuerpo-1-descripcion col-gris-300">
+            <%= descripcion %>
+          </p>
+          <div class="columna columna-descripcion">
+            <button class="boton boton-columna">
+              <a
+                class="enlace enlace-boton enlace__demo fon-azul-100 col-blanco-100"
+                href=<%= demo %>
+                target="-blank"
+              >
+                Demo
+              </a>
+            </button>
+            <button class="boton boton-columna">
+              <a
+                class="enlace enlace-boton enlace__codigo fon-blanco-100 col-azul-100"
+                href=<%= codigo %>
+                target="-blank"
+                >
+                  Code
+                </a>
+            </button>
+          </div>
+        </figcaption>
+      </section>
+  
+    <% }) %> 
+  </div>
+</section>
+
+<section class="proyectos">
+  <h2 class="cabecera-2 cabecera-2-proyectos fon-blanco-100 col-oscuro-100"> Easy Tutorials (5)</h2>
+  
+<div class="contenido contenido-proyectos">
+  <% proyectos.easy.forEach((proyecto)=>{ %>
+    <% const {fuente,alt,lenguajes,titulo,descripcion,demo,codigo} = proyecto; %> 
+    
+    <section class="desafio desafio-proyectos fon-blanco-100">
+      <figure class="figura figura-desafio">
+        <img
+          class="imagen imagen-figura"
+          src=<%= fuente %> 
+          alt=<%= alt %>
+        />
+      </figure>
+      <figcaption class="descripcion descripcion-desafio">
+        <div class="lenguajes lenguajes-descripcion">
+          <% lenguajes.forEach((lenguaje)=>{ %>
+            <span class="cuerpo-1 cuerpo-1-descripcion col-gris-200"> #<%= lenguaje %>  </span>
+          <% }); %> 
+        </div>
+        <h2 class="cabecera-1 cabecera-1-descripcion col-oscuro-100"><%= titulo %></h2>
+        <p class="cuerpo-1 cuerpo-1-descripcion col-gris-300">
+          <%= descripcion %>
+        </p>
+        <div class="columna columna-descripcion">
+          <button class="boton boton-columna">
+            <a
+              class="enlace enlace-boton enlace__demo fon-azul-100 col-blanco-100"
+              href=<%= demo %>
+              target="-blank"
+            >
+              Demo
+            </a>
+          </button>
+          <button class="boton boton-columna">
+            <a
+              class="enlace enlace-boton enlace__codigo fon-blanco-100 col-azul-100"
+              href=<%= codigo %>
+              target="-blank"
+              >
+                Code
+              </a>
+          </button>
+        </div>
+      </figcaption>
+    </section>
+
+  <% }) %> 
+</div>
+</section>
+
+<section class="proyectos">
+  <h2 class="cabecera-2 cabecera-2-proyectos fon-blanco-100 col-oscuro-100"> LeetCode (12)</h2>
+  
+<div class="contenido contenido-proyectos">
+  <% proyectos.leetcode.forEach((proyecto)=>{ %>
+    <% const {fuente,alt,lenguajes,titulo,descripcion,demo,codigo} = proyecto; %> 
+    
+    <section class="desafio desafio-proyectos fon-blanco-100">
+      <figure class="figura figura-desafio">
+        <img
+          class="imagen imagen-figura"
+          src=<%= fuente %> 
+          alt=<%= alt %>
+        />
+      </figure>
+      <figcaption class="descripcion descripcion-desafio">
+        <div class="lenguajes lenguajes-descripcion">
+          <% lenguajes.forEach((lenguaje)=>{ %>
+            <span class="cuerpo-1 cuerpo-1-descripcion col-gris-200"> #<%= lenguaje %>  </span>
+          <% }); %> 
+        </div>
+        <h2 class="cabecera-1 cabecera-1-descripcion col-oscuro-100"><%= titulo %></h2>
+        <p class="cuerpo-1 cuerpo-1-descripcion col-gris-300">
+          <%= descripcion %>
+        </p>
+        <div class="columna columna-descripcion">
+          <button class="boton boton-columna">
+            <a
+              class="enlace enlace-boton enlace__demo fon-azul-100 col-blanco-100"
+              href=<%= demo %>
+              target="-blank"
+            >
+              Demo
+            </a>
+          </button>
+          <button class="boton boton-columna">
+            <a
+              class="enlace enlace-boton enlace__codigo fon-blanco-100 col-azul-100"
+              href=<%= codigo %>
+              target="-blank"
+              >
+                Code
+              </a>
+          </button>
+        </div>
+      </figcaption>
+    </section>
+
+  <% }) %> 
+</div>
+</section>

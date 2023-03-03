@@ -1,0 +1,25 @@
+<section class="hobbies fon-blanco-100">
+    <h2 class="cabecera-1  cabecera-1-hobbies col-gris-200">Pasatiempos</h2>
+    <div class="contenido contenido-hobbies">
+      <% hobbies.informacion.forEach((hobbie)=>{ %>
+        <% const {fuente, alt,titulo,descripcion} = hobbie; %> 
+       
+        <section class="entretenimiento entretenimiento-hobbies">
+          <figure class="figura figura-hobbies">
+            <img
+              class="imagen imagen-figura"
+              src=<%= fuente %>
+              alt=<%= alt %>
+            />
+          </figure>
+          <figcaption class="descripcion descripcion-hobbies">
+            <h4 class="cabecera-2 cabecera-2-descripcion col-oscuro-100"><%= titulo %></h4>
+            <p class="cuerpo-2 cuerpo-2-descripcion col-gris-300">
+              <%= descripcion%>
+            </p>
+          </figcaption>
+        </section>
+        
+      <% }); %> 
+    </div>
+  </section>

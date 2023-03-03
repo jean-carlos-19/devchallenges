@@ -1,0 +1,57 @@
+.cabecera-1 {
+  @include cabecera-1();
+}
+.cabecera-2 {
+  @include cabecera-2();
+}
+.cabecera-3 {
+  @include cabecera-3();
+}
+.cuerpo-1 {
+  @include cuerpo-1();
+}
+.cuerpo-2 {
+  @include cuerpo-2();
+}
+.col-blanco-100 {
+  color: var(--col-blanco-100);
+}
+.col-gris-100 {
+  color: var(--col-gris-100);
+}
+.col-gris-200 {
+  color: var(--col-gris-200);
+}
+.col-gris-300 {
+  color: var(--col-gris-300);
+}
+.col-oscuro-100 {
+  color: var(--col-oscuro-100);
+}
+.col-gris-400 {
+  color: var(--col-gris-400);
+}
+.col-azul-100 {
+  color: var(--col-azul-100);
+}
+.fon-blanco-100 {
+  background-color: var(--col-blanco-100);
+}
+.fon-gris-100 {
+  background-color: var(--col-gris-100);
+}
+.fon-gris-200 {
+  background-color: var(--col-gris-200);
+}
+.fon-gris-300 {
+  background-color: var(--col-gris-300);
+}
+.fon-oscuro-100 {
+  background-color: var(--col-oscuro-100);
+}
+.fon-gris-400 {
+  background-color: var(--col-gris-400);
+}
+.fon-azul-100 {
+  background-color: var(--col-azul-100);
+}

@@ -1,0 +1,18 @@
+.izquierda {
+  // max-width: 28.68vw;/* (413 * 100 / 1440) */
+  & > * + * {
+    margin-top: 2.75rem; /* (44 / 16) */
+  }
+  @media screen and (min-width: 62.5rem) {
+    & > * + * {
+      margin-top: 0; /* (0 / 16) */
+    }
+
+    width: 100%;
+    max-width: 90rem; /* (1440 / 16) */
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    grid-gap: 1rem; /* (16/16) */
+  }
+}

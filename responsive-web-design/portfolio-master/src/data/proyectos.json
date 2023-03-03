@@ -1,0 +1,321 @@
+{
+  "informacion": [
+    {
+      "fuente": "./assets/img/challengesDesigns_404PageThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "404 Not found",
+      "descripcion": "Para desarrollar la pagina de dirección no encontrada o por su código de error 404, decidí utilizar HTML y CSS que son las tecnologías esenciales para crear una pagina web. Ademas utilice un pre procesador de CSS llamado SASS, que me ayuda a tener un DISEÑO MODULAR, lo cual mejora mi experiencia de desarrollo y utilizando una arquitectura (7-1), y por ultimo la implementación de una metodología de DISEÑO PRIMERO MÓVIL ,para después ir escalando a dispositivos mas grandes.",
+      "demo": "https://jc-404-not-found.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/404.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_myTeamThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Team Page",
+      "descripcion": "Para desarrollar la pagina de team page, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo, también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Me encontre con una problemática al momento de verificar el comportamiento del sitio en un navegador diferente y no me aplico cierto estilo fue con la propiedad writing-mode, pero lo solucione con otro valor que no este en modo de prueba",
+      "demo": "https://piguavejc-team-page.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/team-page.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_interiorConsultantThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Interior Consult",
+      "descripcion": "Para desarrollar la pagina Interior Consultant, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo, también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
+      "demo": "https://piguavejc-interior-consultant.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/interior-consultant.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_recipeBlogThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Recipe Page",
+      "descripcion": "Para desarrollar la pagina Recipe page, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Utilice animaciones en la pagina.",
+      "demo": "https://piguavejc-interior-consultant-gg9c.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/recipe-page-master.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_GalleryThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "My Gallery",
+      "descripcion": "Para desarrollar la pagina My Gallery, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Utilice animaciones en la pagina.",
+      "demo": "https://piguavejc-my-gallery-master.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/my-gallery-master.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_CheckoutThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Checkout Page",
+      "descripcion": "Para desarrollar la pagina Checkout Page Masterd, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
+      "demo": "https://piguavejc-checkout-page-master.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/checkout-page-master.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_EdieHomageThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "HomePage Master",
+      "descripcion": "Para desarrollar la pagina Portfolio, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
+      "demo": "https://piguavejc-edie-homepage-master.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/edie-homepage-master.git"
+    },
+    {
+      "fuente": "./assets/img/challengesDesigns_PortfolioThumbnail.webp",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Portfolio",
+      "descripcion": "Para desarrollar la pagina Edie homepage, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes",
+      "demo": "https://piguavejc-portfolio-master.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/portfolio-master"
+    }
+  ],
+  "easy": [
+    {
+      "fuente": "./assets/img/glassmorphism.png",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "vanilla-tilt",
+        "Responsive"
+      ],
+      "titulo": "Glassmorphism",
+      "descripcion": "El objetivo de la pagina es utilizar la libreria de vainilla-lit, en una tarjeta de presentacion de una persona con sus redes sociales y un boton para ver mas.",
+      "demo": "https://glassmorphism.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/easy-tutorials/tree/master/glassmorphism"
+    },
+    {
+      "fuente": "./assets/img/fruitopia.png",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Not Responsive"
+      ],
+      "titulo": "Fruitopia",
+      "descripcion": "Las carateristica del sitio es la seccion de bienvenido, contacto y acerca de, su objetivo de informacion son frutas de fresa en la cual puedes buscar contenido acerca del mismo, asi como ver video y notificaciones por ultimo las redes sociales.",
+      "demo": "https://fruitopia.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/easy-tutorials/tree/master/sitios-web-1"
+    },
+    {
+      "fuente": "./assets/img/precio.png",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Responsive"
+      ],
+      "titulo": "Precio",
+      "descripcion": "Es una pagina donde se muestran los diferentes tipos de precio que eisten para comprar un servicio, en el cual estan los botones de agregar al carrito y su descripcion de cada plan",
+      "demo": "https://precios-2y1r.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/easy-tutorials/tree/master/tabla-precios"
+    },
+    {
+      "fuente": "./assets/img/videollamada.png",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "not Responsive"
+      ],
+      "titulo": "Videollamada",
+      "descripcion": "Es un sitio web en el cual puedes realizar video conferencia con tus amigos, tiene los botones de colgar, llamar, audio y mensaje y la configuracion.",
+      "demo": "https://videollamada.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/easy-tutorials/tree/master/videollamada"
+    },
+    {
+      "fuente": "./assets/img/onda.png",
+      "alt": "",
+      "lenguajes": [
+        "Ejs",
+        "Sass",
+        "PostCss",
+        "Typescript",
+        "Webpack",
+        "Babel",
+        "Wavesurfer",
+        "Not Responsive"
+      ],
+      "titulo": "Onda",
+      "descripcion": "La pagina solo tiene el objetivo de implementar wavesurfer que es una biblioteca que nos permite reproducir un audio, tiene el icono para dar play y pausar asi como el nombre del artista y la cancion",
+      "demo": "https://onda.onrender.com/",
+      "codigo": "https://github.com/jean-carlos-19/easy-tutorials/tree/master/onda-de-sonido"
+    }
+  ],
+  "leetcode": [
+    {
+      "fuente": "./assets/img/challengue-1.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #1",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_1"
+    },
+    {
+      "fuente": "./assets/img/challengue-2.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #2",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_2"
+    },
+    {
+      "fuente": "./assets/img/challengue-3.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #3",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_3"
+    },
+    {
+      "fuente": "./assets/img/challengue-4.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #4",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_4"
+    },
+    {
+      "fuente": "./assets/img/challengue-5.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #5",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_5"
+    },
+    {
+      "fuente": "./assets/img/challengue-6.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #6",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_6"
+    },
+    {
+      "fuente": "./assets/img/challengue-7.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #7",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_7"
+    },
+    {
+      "fuente": "./assets/img/challengue-8.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #8",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_8"
+    },
+    {
+      "fuente": "./assets/img/challengue-9.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #9",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_9"
+    },
+    {
+      "fuente": "./assets/img/challengue-10.png",
+      "alt": "",
+      "lenguajes": ["Typescript", "Jest"],
+      "titulo": "Busqueda Binaria Easy #10",
+      "descripcion": "Los desafios planteados por la plataforma leetcode, sobre busqueda binaria en 12 dias, los requerimientos de los desafios estan en github.",
+      "demo": "https://leetcode.com/",
+      "codigo": "https://github.com/jean-carlos-19/leetcode/tree/master/src/busqueda_binaria/easy/challenge_10"
+    }
+  ]
+}

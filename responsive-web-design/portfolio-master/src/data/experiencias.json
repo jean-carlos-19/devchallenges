@@ -1,0 +1,25 @@
+{
+  "informacion": [
+    {
+      "fuente": "./assets/img/logo-utm.png",
+      "alt": "",
+      "fecha": "octubre 2022 - Actualidad",
+      "titulo": "Desarrollador de aplicacion movil",
+      "descripcion": "Me encuentro creando una apliacion movil multiplataforma para el control y gestion de las tareas en el gad charapoto"
+    },
+    {
+      "fuente": "./assets/img/logo-utm.png",
+      "alt": "",
+      "fecha": "septiembre 2022 - Diciembre 2022",
+      "titulo": "Desarrollador Web",
+      "descripcion": "Mis tareas eran realizar actualizaciones a los diferentes post que se realizaban dentro de la institucion por medio de joomla."
+    },
+    {
+      "fuente": "./assets/img/logo-utm.png",
+      "alt": "",
+      "fecha": "Jun 2015 - Aug 2016",
+      "titulo": "Desarrollador Web",
+      "descripcion": "Mi responsabilidad era crear sitios web de acuerdo a las necesidades y exigencias del cliente y organizar la arquitectura de la informacion."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.descripcion {
+  & > * + * {
+    margin-top: 2.125rem; /* (34 / 16) */
+  }
+  .cuerpo-1-descripcion {
+    max-width: 292px;
+    min-width: 292px;
+    max-height: 100px;
+    min-height: auto;
+    overflow: auto;
+  }
+}

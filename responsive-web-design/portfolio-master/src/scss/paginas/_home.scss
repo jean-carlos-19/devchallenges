@@ -1,0 +1,14 @@
+.home {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: var(--ancho-maximo);
+  & > * + * {
+    margin-top: 2.75rem; /* (44 / 16) */
+  }
+  @media screen and (min-width: 50rem) {
+    padding: 4.375rem 12.3125rem; /* (70 / 16), (197 / 16) */
+    & > * + * {
+      margin-top: 2.75rem; /* (44 / 16) */
+    }
+  }
+}

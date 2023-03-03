@@ -1,0 +1,40 @@
+{
+  "informacion": [
+    {
+      "titulo": "Lenguajes",
+      "lenguajes": ["Javascript", "Node", "Html", "Ejs", "Css", "Scss"]
+    },
+    {
+      "titulo": "FRAMEWORKS & Herramientas",
+      "lenguajes": [
+        "Wordpress",
+        "Joomla",
+        "Express",
+        "React",
+        "React Native",
+        "Figma"
+      ]
+    },
+    {
+      "titulo": "Base de Datos",
+      "lenguajes": ["Mysql", "Postgresql"]
+    },
+    {
+      "titulo": "S.O",
+      "lenguajes": ["windows", "Linux(Ubuntu)"]
+    },
+    {
+      "titulo": "Control de Versiones",
+      "lenguajes": ["Git", "Github", "Gitlab"]
+    },
+    {
+      "titulo": "Infraestructura",
+      "lenguajes": [
+        "Atomic Design",
+        "Arquitectura Hexagonal",
+        "Modelo Vista controlador",
+        "Patron 7 - 1"
+      ]
+    }
+  ]
+}

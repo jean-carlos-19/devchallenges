@@ -1,0 +1,21 @@
+.columna {
+  margin-left: 0;
+
+  &:nth-child(1) {
+    & > * + * {
+      margin-top: 0.375rem; /* (6 / 16) */
+    }
+  }
+  &:nth-child(2),
+  &:nth-child(3) {
+    & > * + * {
+      margin-top: 0.625rem; /* (10 / 16) */
+    }
+    .item-columna {
+      @include display-flex(row, flex-start, center);
+      & > * + * {
+        margin-left: 1.125rem; /* (18 / 16) */
+      }
+    }
+  }
+}

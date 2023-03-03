@@ -1,0 +1,23 @@
+.experiencia {
+  padding: var(--tamano-relleno);
+  border-radius: var(--tamano-borde);
+  width: 100%;
+  & > * + * {
+    margin-top: 2.25rem; /* (36 / 16) */
+  }
+  .descripcion-area {
+    .cuerpo-1-descripcion {
+      max-width: 500px;
+      min-width: 292px;
+      max-height: 100px;
+      min-height: auto;
+      overflow: auto;
+    }
+  }
+
+  @media screen and (min-width: 62.5rem) {
+    min-width: 37rem; /* (592 / 16) */
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+}

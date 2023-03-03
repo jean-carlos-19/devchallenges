@@ -1,0 +1,20 @@
+.area {
+  @include display-flex(row, space-between, flex-start);
+  .figura-area {
+    flex: 1 1 auto;
+    .imagen-figura {
+      max-width: 5.25rem; /* (84 / 16) */
+      max-height: 5.25rem; /* (84 / 16) */
+    }
+  }
+  .descripcion-area {
+    flex: 2 1 70%;
+
+    .cabecera-3-descripcion {
+      margin-top: 0.75rem; /* (12 / 16) */
+    }
+    .cuerpo-1-descripcion {
+      margin-top: 1rem; /* (16 / 16) */
+    }
+  }
+}

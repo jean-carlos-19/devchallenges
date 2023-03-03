@@ -1,0 +1,21 @@
+.presentacion {
+  padding: var(--tamano-relleno);
+  border-radius: var(--tamano-borde);
+  & > * + * {
+    margin-top: 1.375rem; /* (22 / 16) */
+  }
+
+  @media screen and (min-width: 62.5rem) {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    & > * + * {
+      margin-left: 1.375rem; /* (22 / 16) */
+    }
+
+    @include display-flex(row, flex-start, stretch);
+    .figura-presentacion {
+      max-width: 16.99125rem; /* ( 271,86 / 16) */
+      max-height: 16.63375rem; /* (266,14 / 16) */
+    }
+  }
+}

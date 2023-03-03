@@ -1,0 +1,10 @@
+.publicacion {
+  padding: var(--tamano-relleno);
+  border-radius: var(--tamano-borde);
+
+  @media screen and (min-width: 50rem) {
+    & > * + * {
+      margin-top: 2rem; /* (32 / 16) */
+    }
+  }
+}

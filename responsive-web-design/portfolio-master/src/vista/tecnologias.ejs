@@ -1,0 +1,30 @@
+<section class="tecnologias fon-blanco-100">
+  <h2 class="cabecera-1  cabecera-1-tecnologias col-gris-200">Tecnologias</h2>
+
+  <div class="contenido contenido-tecnologias">
+      <% tecnologias.informacion.forEach((tecnologia)=>{ %>
+    <% const {titulo, lenguajes} = tecnologia; %> 
+ 
+    <div class="herramientas herramientas-tecnologias fon-gris-100">
+
+      <h3 class="cabecera-2 cabecera-2-herramientas col-gris-200"> <%= titulo %>  </h3>
+      
+      <div class="lenguajes lenguajes-herramientas">
+
+        <% lenguajes.forEach((lenguaje)=>{ %>
+
+          <p class="cuerpo-1 cuerpo-1-lenguajes col-gris-200"> <%= lenguaje %> </p>
+          
+          <div class="barra barra-lenguajes fon-gris-400">
+            <span class="nivel nivel-barra fon-azul-100"></span>
+          </div>
+          
+        <% }) %> 
+      </div>
+    </div>
+
+  <% }) %> 
+  </div>
+
+  
+  </section>

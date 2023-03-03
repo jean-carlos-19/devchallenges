@@ -1,0 +1,34 @@
+:root {
+  @include colores();
+  @include tamano-cabecera-1();
+  @include tamano-cabecera-2();
+  @include tamano-cuerpo-1();
+  @include tamano-cuerpo-2();
+  @include border();
+  @include relleno();
+  @include ancho-maximo();
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  background: var(--col-secund-blanco);
+  animation: aparce_sitio 1s 0s ease-out;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: var(--tamano-borde);
+  background-color: rgba(128, 128, 128, 0.139);
+}
