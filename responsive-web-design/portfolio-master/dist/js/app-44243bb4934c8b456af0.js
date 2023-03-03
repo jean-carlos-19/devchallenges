@@ -154,11 +154,11 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 952:
+/***/ 308:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/img/curriculo-Jean-Piguave.pdf");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/img/curriculo-jean-piguave.pdf");
 
 /***/ }),
 
@@ -361,7 +361,7 @@ __webpack_require__(101);
 __webpack_require__(939);
 __webpack_require__(826);
 __webpack_require__(714);
-__webpack_require__(952);
+__webpack_require__(308);
 __webpack_require__(377);
 __webpack_require__(365);
 __webpack_require__(592);

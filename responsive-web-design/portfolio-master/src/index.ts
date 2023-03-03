@@ -6,7 +6,7 @@ import './assets/img/challengesDesigns_CheckoutThumbnail.webp';
 import './assets/img/challengesDesigns_404PageThumbnail.webp';
 import './assets/img/challengesDesigns_GalleryThumbnail.webp';
 import './assets/img/challengesDesigns_myTeamThumbnail.webp';
-import './assets/img/curriculo-Jean-Piguave.pdf';
+import './assets/img/curriculo-jean-piguave.pdf';
 import './assets/img/glassmorphism.png';
 import './assets/img/devchallenges.png';
 import './assets/img/challengue-1.png';
