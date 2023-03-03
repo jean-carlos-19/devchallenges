@@ -1,0 +1,13 @@
+.bienvenido {
+  * + * {
+    margin-top: .75rem; /*(12 / 16)*/
+  }
+  //Escritorio
+  @media screen and (min-width: 50rem) {
+    .descripcion-bienvenido {
+      .parrafo-descripcion {
+        width: 61.09%; /* (592 / 969 * 100) */
+      }
+    }
+  }
+}

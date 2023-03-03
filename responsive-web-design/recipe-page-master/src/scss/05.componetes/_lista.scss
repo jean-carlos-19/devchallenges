@@ -1,0 +1,15 @@
+.lista {
+  margin-top: 1.75rem; /*(28 / 16)*/
+
+  & > * + * {
+    margin-top: 2.1875rem; /*(35 / 16)*/
+  }
+  .item {
+    & > * + * {
+      margin-left: 0.5rem; /*(8 / 16) */
+    }
+    .check-item {
+      display: inline-block;
+    }
+  }
+}

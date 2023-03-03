@@ -1,0 +1,19 @@
+.estadistica {
+  @include display-grid(
+    3,
+    3.12rem,
+    1.25rem,
+    1.25rem
+  ); /* (50/16) , (20/16) , (20/16)*/
+
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    width: 26.86%; /*(367 * 100 /1366)*/
+    order: 2;
+    border: 0;
+    border-radius: 0.93rem;
+    padding: 2.93rem 3.12rem; /*(46.88/16) , (49.92/16)*/
+    box-shadow: 0 0 0.93rem 0 var(--col-secund-gris-500);
+    @include display-flex(column, flex-start, center);
+  }
+}

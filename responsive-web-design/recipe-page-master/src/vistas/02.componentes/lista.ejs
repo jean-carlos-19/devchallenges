@@ -1,0 +1,22 @@
+<ul class="lista lista-instrucciones">
+        
+    <% instrucciones.informacion.forEach((dato)=>{%>
+        
+        <% let {cabecera,parrafo} = dato %>
+        
+        <li class="literal literal-lista">
+            
+            <%- include("../01.elementos/cabecera-1.ejs",{
+                css_class:'"cabecera-1 cabecera-1-literal  fon-prim col-blanco-100"',
+                contenido:cabecera
+            }) %> 
+            
+            <%- include("../01.elementos/cuerpo-1.ejs",{
+                css_class:'"parrafo parrafo-literal cuerpo-1"',
+                contenido:parrafo
+            }) %> 
+    
+        </li>
+    <% }); %> 
+
+</ul>

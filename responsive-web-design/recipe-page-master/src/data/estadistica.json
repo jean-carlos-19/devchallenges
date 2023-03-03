@@ -1,0 +1,24 @@
+{
+  "informacion": [
+    {
+      "icono": "restaurant_menu",
+      "subtitulo": "Yields",
+      "cabecera": "12 servings"
+    },
+    {
+      "icono": "watch_later",
+      "subtitulo": "Prep TIme",
+      "cabecera": "45 minutes"
+    },
+    {
+      "icono": "watch_later",
+      "subtitulo": "Cook Time",
+      "cabecera": "1 hour"
+    },
+    {
+      "icono": "watch_later",
+      "subtitulo": "Total Time",
+      "cabecera": "7,75 hours"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.ingredientes,
+.instrucciones {
+  & > * + * {
+    margin-top: 2.62rem; /* (42 / 16) */
+  }
+}

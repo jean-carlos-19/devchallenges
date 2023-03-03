@@ -1,0 +1,10 @@
+.informacion {
+  & > * + * {
+    margin-top: 1.875rem; /*(30 / 16)*/
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    max-width: 51.24%; /*(700 * 100 / 1366)*/
+    order: 1;
+  }
+}

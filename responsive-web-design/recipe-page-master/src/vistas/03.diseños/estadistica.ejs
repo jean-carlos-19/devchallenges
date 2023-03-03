@@ -1,0 +1,14 @@
+<div class="estadistica estadistica-contenido">
+
+    <% estadistica.informacion.forEach((dato)=>{%>
+        <% let {icono,subtitulo,cabecera} = dato %>
+
+        <%- include("../02.componentes/figura.ejs",{
+            icono,
+            subtitulo,
+            cabecera
+        }) %>
+        
+    <% }); %> 
+
+</div>

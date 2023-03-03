@@ -1,0 +1,23 @@
+.figura {
+  @include display-flex(row, flex-start, center);
+  & > * + * {
+    margin-left: 0.6875rem;/* (11 / 16) */
+  }
+  &:first-child {
+    grid-column: 1/4;
+    .icono-figura {
+      color: var(--col-prim);
+    }
+    .descripcion-figura {
+      .cabecera-3-descripcion {
+        color: var(--col-prim);
+      }
+    }
+  }
+  .icono-figura {
+    color: var(--col-secund-gris-200);
+  }
+  .descripcion-figura {
+    @include display-flex(column, center, flex-start);
+  }
+}

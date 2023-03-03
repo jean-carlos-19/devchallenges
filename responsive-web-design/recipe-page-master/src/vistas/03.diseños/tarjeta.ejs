@@ -1,0 +1,34 @@
+
+<% ingredientes.comidas.forEach((data)=>{ %>
+        
+    <section class="tarjeta tarjeta-ingredientes">
+        <% Object.keys(data).map((item)=>{ %>
+        
+            
+            <% if( !Array.isArray( data[item] ) ) { %>
+                
+                <%- include("../01.elementos/cabecera-5.ejs",{
+                    css_class:'"cabecera-5 cabecera-5-tarjeta col-secund-gris-100"',
+                    contenido:data[item]
+                }) %>
+    
+    
+    
+            <% } else { %>
+    
+                <ul class="lista lista-tarjeta">
+                    <% data[item].map((informacion)=>{%>
+                        <li class="item item-lista">
+                            <input class="check check-item"  type="checkbox" />
+                            <label class="etiqueta etiqueta-item col-secund-gris-100 cuerpo-1" >
+                               <%- informacion %> 
+                            </label>
+                        </li>
+                    <% }) %> 
+                </ul> 
+    
+            <% } %> 
+            
+        <% }); %> 
+    </section>
+<% })  %>

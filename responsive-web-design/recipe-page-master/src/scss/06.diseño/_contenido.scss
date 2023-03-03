@@ -1,0 +1,12 @@
+.contenido {
+  margin-top: 1.5rem; /* (24 / 16) */
+
+  & > * + * {
+    margin-top: 1.875rem; /* (30 / 16) */
+  }
+
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    @include display-flex(row, space-between, flex-start);
+  }
+}

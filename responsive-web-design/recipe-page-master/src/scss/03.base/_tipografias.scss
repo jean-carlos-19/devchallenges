@@ -1,0 +1,24 @@
+.cabecera-1 {
+  @include cabecera-1();
+}
+.cabecera-2 {
+  @include cabecera-2();
+}
+.cabecera-3 {
+  @include cabecera-3();
+}
+.cabecera-4 {
+  @include cabecera-4();
+}
+.cabecera-5 {
+  @include cabecera-5();
+}
+.subtitulo-1 {
+  @include subtitulo-1();
+}
+.cuerpo-1 {
+  @include cuerpo-1();
+}
+.cuerpo-2 {
+  @include cuerpo-2();
+}
