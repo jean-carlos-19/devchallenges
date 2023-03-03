@@ -1,0 +1,15 @@
+.cuerpo {
+  width: 100%;
+  margin-top: 4rem; /* (64 / 16) */
+  @include display-flex(column, space-around, center);
+
+  // ESCRITORIO
+  @media screen and (min-width: #{$punto-interupcion-escritorio}) {
+    margin-top: 12.5rem; /* (200 / 16) */
+    width: 100%;
+    @include display-flex(row, center, center);
+    & > * + * {
+      margin-left: 12.6875rem; /* (203 / 16) */
+    }
+  }
+}

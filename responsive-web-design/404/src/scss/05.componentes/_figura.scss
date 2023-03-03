@@ -1,0 +1,10 @@
+.figura {
+  width: 50.22vw; /* (286.838/949)*100 */
+  height: auto;
+  @include display-flex(row, center, center);
+  
+  // ESCRITORIO
+  @media screen and (min-width:  #{$punto-interupcion-escritorio}) {
+    max-width: 37.44%; /* (539.22/1440)*100 */
+  }
+}

@@ -1,0 +1,9 @@
+.imagen {
+    max-width: 33.75rem;/* (540 / 16) */
+    max-height: 28rem;/* (448 / 16) */
+    min-width: 17.875rem;/* (286 / 16) */
+    min-height: 14.875rem;/* (238 / 16) */
+    object-fit: cover;
+    cursor: pointer;
+    animation: vueltas-espantapajaros 1s 0s ease-in infinite alternate;
+}

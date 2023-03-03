@@ -1,0 +1,31 @@
+:root {
+  @include colores();
+  @include tamano-cabecera-1();
+  @include tamano-cabecera-2();
+  @include tamano-cuerpo-1();
+  @include tamano-cuerpo-2();
+  @include relleno();
+  @include anchos();
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--col-secund-blanco);
+  animation: aparce-sitio 1s 0s ease-out;
+}
+u {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}

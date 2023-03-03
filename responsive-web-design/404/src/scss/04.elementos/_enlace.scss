@@ -1,0 +1,12 @@
+.enlace {
+  display: inline-block;
+  padding: 1.43rem 2.68rem; /* (23 / 16) , (43 / 16) */
+  border: none;
+  border-radius: 0.5rem;/* (8 / 16) */
+  text-decoration: none;
+  cursor: pointer;
+
+  &.boton-click {
+    animation: boton-click 1s ease-in-out;
+  }
+}

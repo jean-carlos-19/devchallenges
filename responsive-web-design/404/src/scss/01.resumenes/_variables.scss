@@ -1,0 +1,70 @@
+//Cabecera 1
+$tamano-cabecera-1-movil: 3rem; /*48/16*/
+$interlineado-cabecera-1-movil: 4.43rem; /*71/16*/
+$tamano-cabecera-1-escritorio: 4rem; /*64/16*/
+$interlineado-cabecera-1-escritorio: 5.93rem; /*95/16*/
+
+//Cabecera 2
+$tamano-cabecera-2-movil: 1.5rem; /*24/16*/
+$interlineado-cabecera-2-movil: 1.56rem; /*25/16*/
+
+//Cuerpo 1
+$tamano-cuerpo-1-movil: 1.12rem; /*18/16*/
+$interlineado-cuerpo-1-movil: 1.68rem; /*27/16*/
+$tamano-cuerpo-1-escritorio: 1.5rem; /*24/16*/
+$interlineado-cuerpo-1-escritorio: 2.25rem; /*36/16*/
+
+//Cuerpo 2
+$tamano-cuerpo-2-movil: 0.87rem; /* 14/16 */
+$interlineado-cuerpo-2-movil: 1.31rem; /* 21/16 */
+
+// Punto de interrupcion
+$punto-interupcion-escritorio: 50rem; /*960/16*/
+
+/* Paleta de colores */
+@mixin colores {
+  --col-prim: #333333;
+  --col-prim-200: #4f4f4f;
+  --col-secund-gris: #bdbdbd;
+  --col-secund-blanco: #ffffff;
+}
+
+/* Tamaños cabecera */
+@mixin tamano-cabecera-1 {
+  --tamano-cabecera-1: #{$tamano-cabecera-1-movil};
+  --interlineado-cabecera-1: #{$interlineado-cabecera-1-movil};
+  @media screen and (min-width:  #{$punto-interupcion-escritorio}) {
+    --tamano-cabecera-1: #{$tamano-cabecera-1-escritorio};
+    --interlineado-cabecera-1: #{$interlineado-cabecera-1-escritorio};
+  }
+}
+
+@mixin tamano-cabecera-2 {
+  --tamano-cabecera-2: #{$tamano-cabecera-2-movil};
+  --interlineado-cabecera-2: #{$interlineado-cabecera-2-movil};
+}
+
+@mixin tamano-cuerpo-1 {
+  --tamano-cuerpo-1: #{$tamano-cuerpo-1-movil};
+  --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-movil};
+  @media screen and (min-width:  #{$punto-interupcion-escritorio}) {
+    --tamano-cuerpo-1: #{$tamano-cuerpo-1-escritorio};
+    --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-escritorio};
+  }
+}
+
+@mixin tamano-cuerpo-2 {
+  --tamano-cuerpo-2-pequeno: #{$tamano-cuerpo-2-movil};
+  --interlineado-cuerpo-2-pequeno: #{$interlineado-cuerpo-2-movil};
+}
+
+/* rellenos */
+
+@mixin relleno() {
+  --relleno: 1.25rem 1.5rem; /* (20 / 16) , (24 / 16) */
+}
+
+/* Ancho de la ventana */
+@mixin anchos {
+  --ancho-maximo: 90rem; /*1440/16*/
+}

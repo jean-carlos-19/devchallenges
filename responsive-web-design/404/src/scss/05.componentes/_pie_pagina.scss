@@ -1,0 +1,17 @@
+.pie-pagina {
+  margin-top: 7.125rem; /* (114 / 16) */
+  padding-bottom: 1.5rem;/* (24 / 16) */
+  @include display-flex(row, center, center);
+  .parrafo-pie-pagina {
+    text-align: center;
+
+    .enlace-parrafo{
+      padding: 0;
+    }
+  }
+
+  /* Escritorio */
+  @media screen and (min-width:  #{$punto-interupcion-escritorio}) {
+    margin-top: 19.25rem; /* ( 308 / 16 ) */
+  }
+}

@@ -1,0 +1,11 @@
+.bienvenido {
+  margin-top: 4.84rem; /* (77.5 / 16) */
+  & > * + * {
+    margin-top: 1.87rem; /* (30 / 16) */
+  }
+  // ESCRITORIO
+  @media screen and (min-width:  #{$punto-interupcion-escritorio}) {
+    margin-top: 0;
+    max-width: 40.69vw; /* (586/1440)*100 */
+  }
+}

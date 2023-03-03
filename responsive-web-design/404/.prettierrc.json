@@ -1,0 +1,33 @@
+{
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": false,
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": [".prettierrc"],
+      "options": { "parser": "json" }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "printWidth":130,
+        "tabWidth": 4
+      }
+    },{
+      "files":["*.scss"],
+      "options":{
+        "tabWidth":2
+      }
+    },
+    {
+      "files": ["*.js","*.ts"],
+      "options": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+      }
+    }
+  ]
+}
