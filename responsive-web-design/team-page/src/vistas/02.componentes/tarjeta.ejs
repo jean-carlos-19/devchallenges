@@ -1,0 +1,26 @@
+<% imagenes.informacion.forEach((imagen)=>{ %>
+
+    <% const {titulo,subtitulo,fuente,descripcion} = imagen; %>
+
+    <section class="tarjeta tarjeta-imagen">
+        <figure class="figura figura-tarjeta">
+
+            <%- include("../01.elementos/imagen.ejs",{
+                css_class:'"imagen imagen-figura"',
+                fuente,
+                descripcion,
+                titulo
+            }) %>
+
+            <%- include("../01.elementos/apartado.ejs",{
+                css_class:'"apartado apartado-figura col-prim"',
+                contenido:titulo
+            }) %>
+        </figure>
+        <%- include("../01.elementos/cabecera-3.ejs",{
+            css_class:'"cabecera-3 cabecera-3-tarjeta col-prim"',
+            contenido:subtitulo
+        }) %> 
+    </section>
+
+<% }) %> 

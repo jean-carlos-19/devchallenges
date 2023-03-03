@@ -1,0 +1,19 @@
+.imagenes {
+  height: auto;
+  margin-top: 6rem; /*96/16*/
+  @include display-grid(
+    30.83%,
+    2.64rem,
+    auto
+  ); /* [(172.42/375)*100], [(42.28/16)] */
+  //ESCRITORIO
+  @media screen and (min-width: 37rem) {
+      height: auto;
+      @include display-grid(
+        20.83%,
+        5.81rem,
+        auto
+      ); /* [(300/1440)*100], [(93/16)] */
+  }
+}
+

@@ -1,0 +1,37 @@
+:root {
+  /*
+  movil:(x=375,y=1049)
+  escritorio:(x=1440,y=1489)
+*/
+
+  @include colores();
+  @include tamano-cabecera-1();
+  @include tamano-cabecera-2();
+  @include tamano-cabecera-3();
+  @include tamano-parrafo();
+  @include tamano-apartado();
+  @include rellenos();
+  @include anchos();
+
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+*,
+*::after,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--color_primario);
+}

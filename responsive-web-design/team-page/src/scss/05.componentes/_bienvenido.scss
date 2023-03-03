@@ -1,0 +1,20 @@
+.bienvenido {
+  & > * + * {
+    margin-top: 1.49%; /* (10 * 100 / 667) */
+  }
+
+  .parrafo-bienvenido{
+    max-width:20.81rem ;/* 333 / 16 */
+  }
+  //ESCRITORIO
+  @media screen and (min-width: 50rem) {
+    
+    margin-top: 0;
+    flex-basis: 42.53%; /* (612.43/1440)*100  */
+
+    .parrafo-bienvenido{
+      max-width:27.43rem ;/* 439 / 16 */
+    }
+  }
+  
+}

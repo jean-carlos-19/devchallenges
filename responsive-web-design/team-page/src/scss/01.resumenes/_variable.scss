@@ -1,0 +1,84 @@
+
+//Cabecera 1
+$tamano-cabecera-1-movil: 2.25rem; /* (36/16)*/
+$interlineado-cabecera-1-movil: 3rem; /*48/16*/ 
+
+//Cabecera 2
+$tamano-cabecera-2-movil: 1.12rem; /* (17.92/16)*/
+$interlineado-cabecera-2-movil: 1.68rem; /*20/16*/
+
+//Cabecera 3
+$tamano-cabecera-3-movil: 0.87rem; /* (14/16)*/
+$interlineado-cabecera-3-movil: 1.68rem; /*20/16*/
+$tamano-cabecera-3-escritorio: 1.12rem; /* (18/16)*/
+$interlineado-cabecera-3-escritorio: 1.68rem; /*27/16*/
+
+//Apartado
+$tamano-apartado-movil: 0.62rem; /* (10/16)*/
+$interlineado-apartado-movil: .93rem; /*13/16*/
+$tamano-apartado-escritorio: .87rem; /* (12/16)*/
+$interlineado-apartado-escritorio: 1.31rem; /*16/16*/  
+
+/* Colores */
+@mixin colores {
+  --col-prim: #000000;
+  --col-secund-gris: #a9a9a9;
+}
+
+/* Tamaños de cabecera*/
+//Cabecera 1
+@mixin tamano-cabecera-1 { 
+    --tamano-cabecera-1: #{$tamano-cabecera-1-movil};
+    --interlineado-cabecera-1: #{$interlineado-cabecera-1-movil};
+}
+
+//Cabecera 2
+@mixin tamano-cabecera-2 {
+    --tamano-cabecera-2: #{$tamano-cabecera-2-movil};
+    --interlineado-cabecera-2: #{$interlineado-cabecera-2-movil};    
+}
+
+//Cabecera 3
+@mixin tamano-cabecera-3 {
+    --tamano-cabecera-3: #{$tamano-cabecera-3-movil};
+    --interlineado-cabecera-3: #{$interlineado-cabecera-3-movil};
+    @media screen and (min-width:37.5rem) {
+      --tamano-cabecera-3: #{$tamano-cabecera-3-escritorio};
+      --interlineado-cabecera-3: #{$interlineado-cabecera-3-escritorio};
+    }
+}
+
+//Parrafo
+@mixin tamano-parrafo {
+  --tamano-parrafo: #{$tamano-cabecera-3-movil};
+  --interlineado-parrafo: #{$interlineado-cabecera-3-movil};
+  @media screen and (min-width:37.5rem) {
+    --tamano-parrafo: #{$tamano-cabecera-3-escritorio};
+    --interlineado-parrafo: #{$interlineado-cabecera-3-escritorio};
+  }
+}
+
+//Apartado
+@mixin tamano-apartado {
+    --tamano-apartado: #{$tamano-apartado-movil};
+    --interlineado-apartado: #{$interlineado-apartado-movil};
+    @media screen and (min-width:37.5rem) {
+      --tamano-apartado: #{$tamano-apartado-escritorio};
+      --interlineado-apartado: #{$interlineado-apartado-escritorio};
+    }
+}
+
+/* Rellenos estandar de los dispositivos */
+@mixin rellenos {
+  // Movil
+  --relleno-home: 18.93% 1.79% 1.61%; /* y = (91 * 100 / 667) , x = (12 * 100 / 375), y1 = (24 * 100 / 667)  */
+  
+  // Escritorio
+  @media screen and (min-width:60rem) {
+    --relleno-home: 7.38% 16.875% 1.61%; /* y = (110 * 100 / 1489) , x = (243 * 100 / 1440), y1 = (24 * 100 / 1489)  */
+  }
+}
+/* Ancho maximo de la ventana */
+@mixin anchos {
+  --ancho-maximo-home: 90rem; /*1440/16*/
+}

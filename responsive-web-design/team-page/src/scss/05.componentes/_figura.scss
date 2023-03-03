@@ -1,0 +1,13 @@
+.figura {
+  @include display-flex(row, center, flex-start);
+  & > * + * {
+    margin-left: 0.5rem; /* (8/16) */
+  }
+  .imagen-figura {
+    width: calc(100% - (0.5rem + 1.5rem));
+    border-radius: 0.5rem;
+  }
+  .apartado{
+    orientation: landscape;
+  }
+}

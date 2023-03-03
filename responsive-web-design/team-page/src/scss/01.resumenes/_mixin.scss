@@ -1,0 +1,53 @@
+@mixin display-grid($minimo, $relleno, $fila) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
+  grid-auto-rows: $fila;
+  grid-gap: $relleno;
+}
+@mixin display-flex($direccion, $eje-principal, $eje-secundario) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $eje-principal;
+  align-items: $eje-secundario;
+}
+@mixin cabecera {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@mixin cabecera-1 {
+  @include cabecera();
+  font-weight: bold;
+  font-size: var(--tamano-cabecera-1);
+  line-height: var(--interlineado-cabecera-1);
+  letter-spacing: -0.045rem;
+  text-transform: none;
+}
+@mixin cabecera-2 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-2);
+  line-height: var(--interlineado-cabecera-2);
+  letter-spacing: -0.045rem;
+  text-align: left;
+}
+@mixin cabecera-3 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-3);
+  line-height: var(--interlineado-cabecera-3);
+  letter-spacing: normal;
+  text-align: left;
+}
+@mixin parrafo {
+  @include cabecera-3();
+  font-weight: normal;
+  text-transform: none;
+}
+
+@mixin apartado {
+  @include cabecera();
+  font-weight: 400;
+  font-size: var(--tamano-apartado);
+  line-height: var(--interlineado-apartado);
+  writing-mode: vertical-lr;
+}

@@ -1,0 +1,40 @@
+{
+    "informacion":[
+        {
+            "titulo":"Product owner",
+            "subtitulo":"bill machoney",
+            "fuente":"../assets/img/photo1.png",
+            "descripcion":"Hombre blanco sonriendo con camisa azul y ojos azules"
+        },
+        {
+            "titulo":"Art director",
+            "subtitulo":"saba cabrera",
+            "fuente":"../assets/img/photo2.png",
+            "descripcion":"mujer blanca sonriendo con sweater marron ojos negros"
+        },
+        {
+            "titulo":"Tech Lead",
+            "subtitulo":"shaoe le",
+            "fuente":"../assets/img/photo3.png",
+            "descripcion":"Hombre moreno sonriendo con camisa blanca y ojos cafe oscuros"
+        },
+        {
+            "titulo":"skylah lu",
+            "subtitulo":"UX Designer",
+            "fuente":"../assets/img/photo4.png",
+            "descripcion":"Mujer asiatica sonriendo con blusa cafe y ojos claros"
+        },
+        {
+            "titulo":"Deverloper",
+            "subtitulo":"griff richards",
+            "fuente":"../assets/img/photo5.png",
+            "descripcion":"Hombre negro sonriendo con camisa de rallas y collar"
+        },
+        {
+            "titulo":"Deverloper",
+            "subtitulo":"stat john",
+            "fuente":"../assets/img/photo6.png",
+            "descripcion":"Hombre blanco sonriendo con camisa ploma y ojos verdes"
+        }
+    ]
+}

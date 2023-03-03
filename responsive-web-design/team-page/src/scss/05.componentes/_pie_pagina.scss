@@ -1,0 +1,16 @@
+.pie-pagina {
+  margin-top: 8.43rem; /*134/16*/
+  width: 100%;
+
+  .apartado-pie-pagina {
+    text-align: center;
+    writing-mode: unset;
+    text-transform: none;
+    
+    .enlace:first-child{
+      .negrita{
+        text-decoration: underline;
+      }
+    }
+  }
+}

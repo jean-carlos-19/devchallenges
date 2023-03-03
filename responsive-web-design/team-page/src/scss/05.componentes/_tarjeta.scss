@@ -1,0 +1,19 @@
+.tarjeta {
+  margin: 0;
+  & > * + * {
+    margin-top: 2.39%; /* (16 *  100 / 667) */
+  }
+  &:nth-child(2n) {
+    margin-top: 5.99%; /* (40 * 100 / 667) */
+  }
+  //ESCRITORIO
+  @media screen and (min-width:37rem) {
+    &:nth-child(2n) {
+      margin-top: 0;
+    }
+    &:nth-child(2),
+    &:nth-child(5) {
+      margin-top: 5.62rem; /* 90 /16 */
+    }
+  }
+}

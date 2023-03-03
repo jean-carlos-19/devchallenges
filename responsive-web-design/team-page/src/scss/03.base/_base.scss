@@ -1,0 +1,21 @@
+.cabecera-1 {
+  @include cabecera-1();
+}
+.cabecera-2 {
+  @include cabecera-2();
+}
+.cabecera-3 {
+  @include cabecera-3();
+}
+.apartado {
+  @include apartado();
+}
+.parrafo {
+  @include parrafo();
+}
+.col-prim{
+  color:var(--col-prim);
+}
+.col-secund-gris{
+  color:var(--col-secund-gris);
+}
