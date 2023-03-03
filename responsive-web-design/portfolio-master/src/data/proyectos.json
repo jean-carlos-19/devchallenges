@@ -15,7 +15,7 @@
       "titulo": "404 Not found",
       "descripcion": "Para desarrollar la pagina de dirección no encontrada o por su código de error 404, decidí utilizar HTML y CSS que son las tecnologías esenciales para crear una pagina web. Ademas utilice un pre procesador de CSS llamado SASS, que me ayuda a tener un DISEÑO MODULAR, lo cual mejora mi experiencia de desarrollo y utilizando una arquitectura (7-1), y por ultimo la implementación de una metodología de DISEÑO PRIMERO MÓVIL ,para después ir escalando a dispositivos mas grandes.",
       "demo": "https://jc-404-not-found.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/404.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/404"
     },
     {
       "fuente": "./assets/img/challengesDesigns_myTeamThumbnail.webp",
@@ -32,7 +32,7 @@
       "titulo": "Team Page",
       "descripcion": "Para desarrollar la pagina de team page, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo, también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Me encontre con una problemática al momento de verificar el comportamiento del sitio en un navegador diferente y no me aplico cierto estilo fue con la propiedad writing-mode, pero lo solucione con otro valor que no este en modo de prueba",
       "demo": "https://piguavejc-team-page.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/team-page.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/team-page"
     },
     {
       "fuente": "./assets/img/challengesDesigns_interiorConsultantThumbnail.webp",
@@ -49,7 +49,7 @@
       "titulo": "Interior Consult",
       "descripcion": "Para desarrollar la pagina Interior Consultant, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo, también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
       "demo": "https://piguavejc-interior-consultant.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/interior-consultant.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/interior-consultant"
     },
     {
       "fuente": "./assets/img/challengesDesigns_recipeBlogThumbnail.webp",
@@ -66,7 +66,7 @@
       "titulo": "Recipe Page",
       "descripcion": "Para desarrollar la pagina Recipe page, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Utilice animaciones en la pagina.",
       "demo": "https://piguavejc-interior-consultant-gg9c.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/recipe-page-master.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/recipe-page-master"
     },
     {
       "fuente": "./assets/img/challengesDesigns_GalleryThumbnail.webp",
@@ -83,7 +83,7 @@
       "titulo": "My Gallery",
       "descripcion": "Para desarrollar la pagina My Gallery, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes. Utilice animaciones en la pagina.",
       "demo": "https://piguavejc-my-gallery-master.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/my-gallery-master.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/my-gallery-master"
     },
     {
       "fuente": "./assets/img/challengesDesigns_CheckoutThumbnail.webp",
@@ -100,7 +100,7 @@
       "titulo": "Checkout Page",
       "descripcion": "Para desarrollar la pagina Checkout Page Masterd, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
       "demo": "https://piguavejc-checkout-page-master.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/checkout-page-master.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/checkout-page-master"
     },
     {
       "fuente": "./assets/img/challengesDesigns_EdieHomageThumbnail.webp",
@@ -117,7 +117,7 @@
       "titulo": "HomePage Master",
       "descripcion": "Para desarrollar la pagina Portfolio, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes.",
       "demo": "https://piguavejc-edie-homepage-master.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/edie-homepage-master.git"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/edie-homepage-master"
     },
     {
       "fuente": "./assets/img/challengesDesigns_PortfolioThumbnail.webp",
@@ -134,7 +134,7 @@
       "titulo": "Portfolio",
       "descripcion": "Para desarrollar la pagina Edie homepage, decide utilizar html y css que son las tecnologías esenciales para crear un sitio web. Ademas utilice un pre procesador de css llamado sass, que me ayuda a tener un diseño modular, lo cual mejora mi experiencia de desarrollo y ademas utilice prettier para el formateo del codigo , también utilice una metodología de diseño primero móvil, para después ir escalando a dispositivos mas grandes",
       "demo": "https://piguavejc-portfolio-master.onrender.com/",
-      "codigo": "https://github.com/jean-carlos-19/portfolio-master"
+      "codigo": "https://github.com/jean-carlos-19/devchallengues/tree/master/responsive-web-design/portfolio-master"
     }
   ],
   "easy": [
