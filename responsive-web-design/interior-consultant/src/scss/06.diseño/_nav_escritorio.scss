@@ -1,0 +1,9 @@
+.navegacion-escritorio {
+  display: none;
+
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    flex-basis: 80%; /* (576/1440)*100 */
+    display: block;
+  }
+}

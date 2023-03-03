@@ -1,0 +1,26 @@
+.encabezado {
+  @include displa-flex(row, space-between, center);
+
+  .columna {
+    flex-basis: 95%; /* (356.25/375)*100 */
+
+    .cabecera-5-encabezado {
+      display: inline-block;
+      padding: 0.5rem 0.5625rem; /*  (8 / 16) , (9 / 16)  */
+      border: 1px solid var(--col-prim);
+    }
+  }
+
+  .encabezado-icono {
+    flex-basis: 5%; /* (18.75/375)*100  */
+  }
+
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    flex-basis: 20%; /*(288/1440)*100 */
+
+    .icono-encabezado {
+      display: none;
+    }
+  }
+}

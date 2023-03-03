@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+Movil
+  base:375px
+  altura:776px
+
+Escritorio
+  base:1440px
+  altura:1080px
+
+*/
+@import "./01.resumen/variables", "./01.resumen/mixin";
+
+/* @import "./02.proveedores/"; */
+
+@import "./04.elementos/imagen", "./04.elementos/icono";
+
+@import "./03.base/fuentes", "./03.base/animaciones", "./03.base/normalizar",
+  "./03.base/fondos", "./03.base/colores", "./03.base/tipografias",
+  "./03.base/base";
+
+@import "./05.componentes/bienvenido", "./05.componentes/encabezado",
+  "./05.componentes/descripcion", "./05.componentes/figura",
+  "./05.componentes/pie_pagina", "./05.componentes/portada",
+  "./05.componentes/lista", "./05.componentes/lista_movil",
+  "./05.componentes/lista_escritorio";
+
+@import "./06.diseño/cabecera", "./06.diseño/contenido",
+  "./06.diseño/informacion", "./06.diseño/nav_escritorio",
+  "./06.diseño/nav_movil";
+
+@import "./07.paginas/home";
+
+/* @import "./08.temas/"; */

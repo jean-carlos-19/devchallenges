@@ -1,0 +1,6 @@
+.cabecera {
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    @include displa-flex(row, space-between, center);
+  }
+}

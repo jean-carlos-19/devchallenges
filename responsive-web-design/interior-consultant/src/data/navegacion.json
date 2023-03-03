@@ -1,0 +1,20 @@
+{
+  "informacion": [
+    {
+      "url": "#",
+      "nombre": "Home"
+    },
+    {
+      "url": "#",
+      "nombre": "Collection"
+    },
+    {
+      "url": "#",
+      "nombre": "About"
+    },
+    {
+      "url": "#",
+      "nombre": "Contact"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.contenido {
+  width: 100%;
+  margin-top: 2.375rem; /* (38 / 16) */
+  & > * + * {
+    margin-top: 1.5625rem; /* (25 / 16) */
+  }
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    margin-top: 9.0625rem; /* (145 / 16) */
+    height: auto;
+    @include displa-flex(row, space-between, center);
+  }
+}

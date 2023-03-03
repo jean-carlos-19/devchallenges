@@ -1,0 +1,18 @@
+.pie-pagina {
+  margin-top: 5.375rem; /* (86 / 16) */
+  @include displa-flex(row, center, center);
+  .parrafo-pie-pagina {
+    text-align: center;
+    text-transform: none;
+    .enlace-pie-pagina {
+      font-size: inherit;
+      font-weight: bold;
+      text-transform: inherit;
+      color: inherit;
+    }
+  }
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    margin-top: 14.375rem; /* (230 / 16) */
+  }
+}

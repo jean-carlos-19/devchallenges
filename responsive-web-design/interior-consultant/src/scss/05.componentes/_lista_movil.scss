@@ -1,0 +1,4 @@
+.lista-navegacion-movil {
+  height: calc(100vh - ((0.75rem * 2) + 1.32rem));
+  @include displa-flex(column, center, center);
+}

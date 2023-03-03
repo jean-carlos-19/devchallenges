@@ -1,0 +1,23 @@
+<article class="bienvenido bienvenido-contenido">
+    
+    <%- include("../01.elementos/cabecera-1.ejs",{
+        css_class:'"cabecera-1 cabecera-1-bienvenido col-prim"',
+        contenido:"Modern interior"
+    }) %> 
+
+    <%- include("../01.elementos/parrafo.ejs",{
+        css_class:'"parrafo parrafo-bienvenido col-prim cuerpo-1"',
+        contenido:"al full-services residential & commercial interior desin and staging company offering professional organizing & eco-services"
+    }) %> 
+
+    
+    <a class="enlace enlace-bienvenido col-prim cuerpo-1" href="">
+        Read more
+        <%- include("../01.elementos/icono.ejs",{
+            css_class:'"material-icons icono icono-enlace"',
+            icono:"arrow_right_alt",
+            codigo:null
+        }) %> 
+    </a>
+
+</article>

@@ -1,0 +1,116 @@
+//Cabecera 1
+$tamano-cabecera-1-movil: 2.25rem; /* 36/16 */
+$interlineado-cabecera-1-movil: 2.87rem; /* 46/16 */
+$tamano-cabecera-1-escritorio: 3rem; /* 48/16 */
+$interlineado-cabecera-1-escritorio: 3.81rem; /* 61/16 */
+
+//Cabecera 2
+$tamano-cabecera-2-movil: 1.12rem; /* (18/16) */
+$interlineado-cabecera-2-movil: 2.19rem; /*35.04/16*/
+$tamano-cabecera-2-escritorio: 1.5rem; /* 24/16 */
+$interlineado-cabecera-2-escritorio: 1.93rem; /* 31/16 */
+
+//Cabecera 3
+$tamano-cabecera-3-movil: 0.87rem; /*14/16*/
+$interlineado-cabecera-3-movil: 1rem; /*16/16*/
+$tamano-cabecera-3-escritorio: 1.12rem; /*18/16*/
+$interlineado-cabecera-3-escritorio: 1.31rem; /*21/16*/
+
+//Cabecera 4
+$tamano-cabecera-4-movil: 0.75rem; /*12/16*/
+$interlineado-cabecera-4-movil: 0.93rem; /*15/16*/
+$tamano-cabecera-4-escritorio: 0.87rem; /* 14/16 */
+$interlineado-cabecera-4-escritorio: 1.06rem; /* 17/16 */
+
+//Cuerpo 1
+$tamano-cuerpo-1-movil: 0.87rem; /*14/16*/
+$interlineado-cuerpo-1-movil: 1.06rem; /*17.07/16*/
+$tamano-cuerpo-1-escritorio: 1.5rem; /* 24/16 */
+$interlineado-cuerpo-1-escritorio: 1.81rem; /* 29/16 */
+
+//Cuerpo 2
+$tamano-cuerpo-2-movil: 0.62rem; /*10/16*/
+$interlineado-cuerpo-2-movil: 0.75rem; /*12/16*/
+$tamano-cuerpo-2-escritorio: 0.75rem; /* 12/16 */
+$interlineado-cuerpo-2-escritorio: 0.93rem; /* 15/16 */
+
+/* Colores */
+
+@mixin colores {
+  //colores
+  --col-prim: #ffffff;
+  --col-secund-oscruro: #181719;
+  --col-secund-oscuro-200: #00000040;
+  --col-secund-gris-200: #828282;
+  --col-secund-gris-300: #a9a9a9;
+}
+
+/* Tamaños de los textos */
+@mixin tamano-cabecera-1 {
+  --tamano-cabecera-1: #{$tamano-cabecera-1-movil};
+  --interlineado-cabecera-1: #{$interlineado-cabecera-1-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-1: #{$tamano-cabecera-1-escritorio};
+    --interlineado-cabecera-1: #{interlineado-cabecera-1-escritorio};
+  }
+}
+
+@mixin tamano-cabecera-2 {
+  --tamano-cabecera-2: #{$tamano-cabecera-2-movil};
+  --interlineado-cabecera-2: #{$interlineado-cabecera-2-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-2: #{$tamano-cabecera-2-escritorio};
+    --interlineado-cabecera-2-escriotrio: #{$interlineado-cabecera-2-escritorio};
+  }
+}
+
+@mixin tamano-cabecera-3 {
+  --tamano-cabecera-3: #{$tamano-cabecera-3-movil};
+  --interlineado-cabecera-3: #{$interlineado-cabecera-3-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-3: #{$tamano-cabecera-3-escritorio};
+    --interlineado-cabecera-3: #{$interlineado-cabecera-3-escritorio};
+  }
+}
+
+@mixin tamano-cabecera-4 {
+  --tamano-cabecera-4: #{$tamano-cabecera-4-movil};
+  --interlineado-cabecera-4-novil: #{$interlineado-cabecera-4-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-4: #{$tamano-cabecera-4-escritorio};
+    --interlineado-cabecera-4: #{$interlineado-cabecera-4-escritorio};
+  }
+}
+
+@mixin tamano-cuerpo-1 {
+  --tamano-cuerpo-1: #{$tamano-cuerpo-1-movil};
+  --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cuerpo-1: #{$tamano-cuerpo-1-escritorio};
+    --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-escritorio};
+  }
+}
+
+@mixin tamano-cuerpo-2 {
+  --tamano-cuerpo-2: #{$tamano-cuerpo-2-movil};
+  --interlineado-cuerpo-2: #{$interlineado-cuerpo-2-movil};
+
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cuerpo-2: #{$tamano-cuerpo-2-escritorio};
+    --interlineado-cuerpo-2: #{$interlineado-cuerpo-2-escritorio};
+  }
+}
+
+/* Rellenos estandar de los dispositivos */
+@mixin rellenos {
+  //rellenos
+  --relleno-home: 1.1875rem 0.75rem 1.5rem; /* (19 / 16) ,(12 / 16) , (24 / 16) */
+  @media screen and (min-width: 50rem) {
+    --relleno-home: 2.8758rem 4.75rem; /* (46 / 16) , (76 / 16) */
+  }
+}
+/* Ancho maximo del dispositivo */
+@mixin anchos {
+  //anchos
+  --ancho-maximo-home: 90rem; /*1440/16*/
+}

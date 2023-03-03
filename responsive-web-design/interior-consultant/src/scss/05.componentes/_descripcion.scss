@@ -1,0 +1,16 @@
+.descripcion {
+  width: 85%;
+  margin-left: 0.8125rem; /* (13 / 16)*/
+
+  & > * + * {
+    margin-top: 0.375em; /* (6 / 16) */
+  }
+  /* Escritorio */
+  @media screen and (min-width: 60rem) {
+    .descripcion {
+      & > * + * {
+        margin-top: 0.5rem; /*(8 / 16)*/
+      }
+    }
+  }
+}

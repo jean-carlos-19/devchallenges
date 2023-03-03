@@ -1,0 +1,13 @@
+<ul class= <%- css_class %>>
+    <% navegacion.informacion.forEach((item)=>{ %>
+
+        <% const {url,nombre} = item; %> 
+        
+        <li class="item item-lista">
+            <a class="enlace enlace-item col-prim cuerpo-1" href= <%= url %> > 
+                <%= nombre %>  
+            </a>
+        </li>
+
+    <% }); %> 
+</ul>

@@ -60,6 +60,7 @@ build/Release
 # Dependency directories
 404/node_modules/
 team-page/node_modules/
+interior-consultant/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)

@@ -1,0 +1,7 @@
+.lista-escritorio {
+  @include displa-flex(row, flex-end, center);
+  & > .item + .item {
+    margin-left: 5.375rem; /* (86 / 16) */
+    margin-top: 0;
+  }
+}

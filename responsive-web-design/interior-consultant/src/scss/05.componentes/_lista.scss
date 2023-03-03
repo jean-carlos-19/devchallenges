@@ -1,0 +1,25 @@
+.lista {
+  & > .item + .item {
+    margin-top: 3rem; /*(32 / 16)*/
+  }
+  &.lista__movil {
+    height: calc(100vh - ((0.75rem * 2) + 1.32rem));
+    @include displa-flex(column, center, center);
+  }
+  &.lista__escritorio {
+    @include displa-flex(row, flex-end, center);
+    & > .item + .item {
+      margin-left: 5.375rem; /* (86 / 16) */
+      margin-top: 0;
+    }
+  }
+  .item-lista {
+    &:first-child {
+      .enlace-item {
+        font-weight: bolder;
+        border-bottom: 3px solid var(--col-prim);
+        padding-bottom: 0.5rem; /* (8/16) */
+      }
+    }
+  }
+}

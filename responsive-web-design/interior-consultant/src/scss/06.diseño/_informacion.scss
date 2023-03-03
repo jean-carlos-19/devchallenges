@@ -1,0 +1,26 @@
+.informacion {
+  position: relative;
+  top: -8.37vh; /* (65 * 100 / 776) */
+  left: 13.86%; /* (52 * 100 / 375) */
+  padding: 0.9375rem 1.1875rem 1.5625rem; /* (15 / 16), (19 / 16), (25 / 16) */
+  max-width: 80%; /* (300 * 100 /375) */
+  border-radius: 0.5rem; /* (8 / 16) */
+  animation: escala-caja 1s 0s ease-in infinite alternate;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @include displa-flex(column, flex-start, center);
+
+  & > * + * {
+    margin-top: 1.375rem; /* (22 / 16) */
+  }
+
+  .figura-informacion {
+    @include displa-flex(row, flex-start, center);
+  }
+
+  @media screen and (min-width: 60rem) {
+    margin: 0;
+    max-width: 28.47%; /* (410 * 100 /1440) */
+    height: auto;
+    left: 63.95%; /* (921 * 100 / 1440) */
+  }
+}
