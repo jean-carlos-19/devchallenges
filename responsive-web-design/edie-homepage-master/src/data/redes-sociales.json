@@ -1,0 +1,19 @@
+{
+  "informacion": [
+    {
+      "url": "https://www.instagram.com/piguavejc/",
+      "fuente": "../assets/img/instagram.svg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.linkedin.com/in/jean-carlos-piguave-alvarado-92b85919a/",
+      "fuente": "../assets/img/linkedin.svg",
+      "alt": "logo de linkedin"
+    },
+    {
+      "url": "https://twitter.com/PiguaveJean",
+      "fuente": "../assets/img/twitter.svg",
+      "alt": "logo de twitter"
+    }
+  ]
+}

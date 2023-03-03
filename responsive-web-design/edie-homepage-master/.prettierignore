@@ -1,0 +1,10 @@
+node_modules/
+captura/escritorio.png
+dist/
+*.ejs
+*.png
+*.jpeg
+*.svg
+*.lock
+*.md
+.git

@@ -1,0 +1,28 @@
+<article class="equipo" id="equipo">
+    <header class="cabecera cabecera-equipo">
+        <%- include("../01.elementos/cabecera-3.ejs",{
+            css_class:'"cabecera-3 cabecera-3-cabecera col-rojo-100"',
+            contenido:"Meet the team"
+        }) %> 
+
+        <%- include("../01.elementos/cabecera-1.ejs",{
+            css_class:'"cabecera-1 cabecera-1-cabecera col-secund-gris-200"',
+            contenido:"We are chilled and a laidback team"
+        }) %> 
+
+        <%- include("../01.elementos/cabecera-4.ejs",{
+            css_class:'"cabecera-4 cabecera-4-equipo col-secund-gris-300"',
+            contenido:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }) %> 
+        
+    </header>
+    <figure class="figura figura-equipo">
+        <%- include("../01.elementos/imagen.ejs",{
+            css_class:'"imagen imagen-figura"',
+            fuente:'"../assets/img/persona1.png"',
+            descripcion:'"persona 2"',
+        }) %>
+        <%- include("../02.componentes/sub-figura.ejs") %>
+       
+    </figure>
+</article>

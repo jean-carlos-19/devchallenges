@@ -1,0 +1,19 @@
+.encabezado {
+  @include display-flex(row, space-between, center);
+  padding: var(--relleno-home);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    .navegacion-encabezado {
+      display: block;
+      position: static;
+      transform: none;
+      height: auto;
+    }
+    .icono-encabezado {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.home {
+  margin: 0 auto;
+  max-width: var(--ancho-maximo);
+  animation: aparece-sitio 1s linear;
+  padding: var(--relleno-home);
+}

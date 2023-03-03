@@ -1,0 +1,10 @@
+.pie-pagina {
+  padding-bottom: 1.25rem; /* (24 / 16)  */
+  margin-top: 6.25rem; /* (100 / 16) */
+  & > * + * {
+    margin-top: 9.625rem; /* (154 / 16) */
+  }
+  .parrafo-pie-pagina {
+    text-align: center;
+  }
+}

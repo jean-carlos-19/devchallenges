@@ -1,0 +1,31 @@
+.especialidades {
+  margin-top: 9.125rem; /* (146 / 16) */
+  & > * + * {
+    margin-top: 3rem; /* (48 / 16) */
+  }
+  .encabezado-especialidades {
+    position: static;
+    z-index: initial;
+    .cabecera-2-encabezado {
+      padding: 0 2.1875rem; /* (35 / 16) */
+    }
+  }
+  .cabecera-3-especialidades {
+    @include display-flex(row, flex-start, center);
+    .icono-enlace {
+      margin-left: 0.5rem; /* (8 / 16) */
+      color: inherit;
+    }
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    .encabezado-especialidades {
+      .cabecera-2-encabezado {
+        padding: 0;
+      }
+    }
+    .cabecera-3-especialidades {
+      @include display-flex(row, flex-end, center);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<section class="area area-conocimiento">
+
+    <%- include("../01.elementos/icono.ejs",{
+        css_class:'"material-icons icono icono-area"',
+        icono,
+        codigo:null
+    }) %> 
+
+    <%- include("../01.elementos/cabecera-2.ejs",{
+        css_class:'"cabecera-2 cabecera-2-area col-secund-gris-200"',
+        contenido:titulo
+    }) %> 
+
+    <%- include("../01.elementos/cabecera-4.ejs",{
+        css_class:'"cabecera-4 cabecera-4-area col-secund-gris-300"',
+        contenido:descripcion
+    }) %> 
+
+    <a class="" href= <%= url %> > 
+        
+        <%- include("../01.elementos/cabecera-4.ejs",{
+            css_class:'"cabecera-4 cabecera-4-area cabecera-4 fon-secund-gris-600 col-secund-gris-400"',
+            contenido:nombre_url
+        }) %> 
+        
+    </a>
+</section>

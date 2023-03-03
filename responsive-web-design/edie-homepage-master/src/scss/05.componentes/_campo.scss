@@ -1,0 +1,14 @@
+.campo {
+  padding: 0.25rem; /* (4 / 16) */
+  border-radius: var(--border-radius-estandar);
+  @include display-flex(row, space-between, center);
+  .texto-campo {
+    max-width: 13.75rem; /* (220 / 16) */
+    min-width: 9.375rem; /* (150 / 16) */
+  }
+  .boton-campo{
+    padding: 0.6875rem 1.25rem; /* (11 / 16), (20 / 16) */
+    max-width: 6.25rem; /* (100 / 16) */
+    border-radius: var(--border-radius-estandar);
+  }
+}

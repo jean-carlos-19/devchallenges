@@ -1,0 +1,44 @@
+.equipo {
+  margin-top: 6.25rem; /* (100 / 16) */
+
+  & > * + * {
+    margin-top: 2.25rem; /* (36 / 16) */
+  }
+
+  .cabecera-equipo {
+    display: block;
+    .cabecera-1-cabecera {
+      margin-top: 0.4375rem; /* (7 / 16) */
+    }
+    .cabecera-4-equipo {
+      margin-top: 0.875rem; /* (14 / 16) */
+    }
+  }
+  .figura-equipo {
+    @include display-flex(row, center, center);
+    & > * + * {
+      margin-left: 0.5rem; /* (8 / 16) */
+    }
+    .imagen-figura {
+      width: 10.125rem; /* (162 / 16) */
+      height: 12.3125rem; /* (197 / 16) */
+    }
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    @include display-flex(row, space-between, center);
+    & > * + * {
+      margin-left: 0.5rem; /* (8 / 16) */
+    }
+    .cabecera-equipo {
+      max-width: 17.5rem; /* (280 / 16) */
+    }
+    .figura-equipo {
+      max-width: 37.5rem; /* (600 / 16) */
+      .imagen-figura {
+        width: 18.25rem; /* (292 / 16) */
+        height: 18.75rem; /* (300 / 16) */
+      }
+    }
+  }
+}

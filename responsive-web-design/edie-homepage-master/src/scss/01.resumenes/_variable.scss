@@ -1,0 +1,127 @@
+//Cabecera 1
+$tamano-cabecera-1-movil: 2.25rem; /* 36/16 */
+$interlineado-cabecera-1-movil: 3.3rem; /*52.88/16*/
+
+//Cabecera 2
+$tamano-cabecera-2-movil: 1.5rem; /* 24/16 */
+$interlineado-cabecera-2-movil: 2.25rem; /* 36/16*/
+$tamano-cabecera-2-escritorio: 2.25rem; /*36/16*/
+$interlineado-cabecera-2-escritorio: 3.37rem; /*54/16*/
+
+//Cabecera 3
+$tamano-cabecera-3-movil: 1.12rem; /* 18/16 */
+$interlineado-cabecera-3-movil: 1.68rem; /* 27/16*/
+$tamano-cabecera-3-escritorio: 1.5rem; /*24/16*/
+$interlineado-cabecera-3-escritorio: 2.25rem; /*36/16*/
+
+//Cabecera 4
+$tamano-cabecera-4-movil: 1rem; /* 16/16 */
+$interlineado-cabecera-4-movil: 1.5rem; /* 24/16*/
+$tamano-cabecera-4-escritorio: 1.12rem; /*18/16*/
+$interlineado-cabecera-4-escritorio: 1.68rem; /*27/16*/
+
+//Cuerpo 1
+$tamano-cuerpo-1-movil: 0.87rem; /* 14/16 */
+$interlineado-cuerpo-1-movil: 1.31rem; /* 21/16*/
+$tamano-cuerpo-1-escritorio: 1.12rem; /*18/16*/
+$interlineado-cuerpo-1-escritorio: 1.68rem; /*27/16*/
+
+//Cuerpo 2
+$tamano-cuerpo-2-movil: 0.75rem; /* 12/16 */
+$interlineado-cuerpo-2-movil: 1.12rem; /* 18/16*/
+$tamano-cuerpo-2-escritorio: 0.87rem; /*14/16*/
+$interlineado-cuerpo-2-escritorio: 1.31rem; /*21/16*/
+
+//Pie
+$tamano-pie-movil: 0.75rem; /* 10/16 */
+$interlineado-pie-movil: 1.12rem; /* 15/16*/
+$tamano-pie-escritorio: 0.87rem; /*14/16*/
+$interlineado-pie-escritorio: 1.31rem; /*21/16*/
+
+// Paleta de colores
+@mixin colores {
+  --col-prim: #2d9cdb;
+  --col-secund-gris-100: #000000;
+  --col-secund-gris-200: #333333;
+  --col-secund-gris-300: #4f4f4f;
+  --col-secund-gris-400: #828282;
+  --col-secund-gris-500: #bdbdbd;
+  --col-secund-gris-600: #e0e0e0;
+  --col-secund-gris-700: #f2f2f2;
+  --col-oscuro-100: #100e10;
+  --col-oscuro-200: #100e1d;
+  --col-verder-100: #27ae60;
+  --col-blanco-100: #fff;
+  --col-rojo-100: #eb5757;
+  --col-piel-100: #f2c94c;
+}
+
+// Cabeceras
+@mixin tamano-cabecera-1 {
+  --tamano-cabecera-1: #{$tamano-cabecera-1-movil};
+  --interlineado-cabecera-1: #{$interlineado-cabecera-1-movil};
+}
+@mixin tamano-cabecera-2 {
+  --tamano-cabecera-2: #{$tamano-cabecera-2-movil};
+  --interlineado-cabecera-2: #{$interlineado-cabecera-2-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-2: #{$tamano-cabecera-2-escritorio};
+    --interlineado-cabecera-2: #{$interlineado-cabecera-2-escritorio};
+  }
+}
+@mixin tamano-cabecera-3 {
+  --tamano-cabecera-3: #{$tamano-cabecera-3-movil};
+  --interlineado-cabecera-3: #{$interlineado-cabecera-3-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-3: #{$tamano-cabecera-3-escritorio};
+    --interlineado-cabecera-3: #{$interlineado-cabecera-3-escritorio};
+  }
+}
+@mixin tamano-cabecera-4 {
+  --tamano-cabecera-4: #{$tamano-cabecera-4-movil};
+  --interlineado-cabecera-4: #{$interlineado-cabecera-4-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cabecera-4: #{$tamano-cabecera-4-escritorio};
+    --interlineado-cabecera-4: #{$interlineado-cabecera-4-escritorio};
+  }
+}
+@mixin tamano-cuerpo-1 {
+  --tamano-cuerpo-1: #{$tamano-cuerpo-1-movil};
+  --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cuerpo-1: #{$tamano-cuerpo-1-escritorio};
+    --interlineado-cuerpo-1: #{$interlineado-cuerpo-1-escritorio};
+  }
+}
+@mixin tamano-cuerpo-2 {
+  --tamano-cuerpo-2: #{$tamano-cuerpo-2-movil};
+  --interlineado-cuerpo-2: #{$interlineado-cuerpo-2-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-cuerpo-2: #{$tamano-cuerpo-2-escritorio};
+    --interlineado-cuerpo-2: #{$interlineado-cuerpo-2-escritorio};
+  }
+}
+@mixin tamano-pie {
+  --tamano-pie: #{$tamano-pie-movil};
+  --interlineado-pie: #{$interlineado-pie-movil};
+  @media screen and (min-width: 37.5rem) {
+    --tamano-pie: #{$tamano-pie-escritorio};
+    --interlineado-pie: #{$interlineado-pie-escritorio};
+  }
+}
+// Rellenos
+@mixin rellenos {
+  --relleno-home: 0.8125rem 0.625rem 0; /* (13 / 16), (10 / 16) */
+  --relleno-estandar: 1.875rem; /* (30 / 16) */
+  @media screen and (min-width: 60rem) {
+    --relleno-home: 3.18rem 3.5rem; /*51/16 56/16*/
+  }
+}
+// Bordes
+@mixin border {
+  --border-radius-estandar: 0.75rem; /*12/16*/
+}
+// Anchos
+@mixin anchos {
+  --ancho-maximo: 90rem; /*1440/16*/
+}

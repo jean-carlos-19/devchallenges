@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* 
+Movil
+    base:375px
+    altura:776px
+Escriotrio
+    base:1440px
+    altura:1080px
+*/
+
+@import "./01.resumenes/variable", "./01.resumenes/mixin";
+
+//@import "./02.proveedore/";
+
+@import "./03.base/fuentes", "./03.base/animaciones", "./03.base/normalizar",
+  "./03.base/fondo", "./03.base/colores", "./03.base/tipografia",
+  "./03.base/base";
+
+@import "./04.elementos/icono", "./04.elementos/boton",
+  "./04.elementos/etiqueta", "./04.elementos/email";
+
+@import "./05.componentes/bienvenido","./05.componentes/detalle","./05.componentes/area",
+"./05.componentes/portada","./05.componentes/subf-igura.scss","./05.componentes/lista", 
+"./05.componentes/campo", 
+
+
+"./05.componentes/figura",
+"./05.componentes/contenido";
+
+
+@import "./06.diseño/conocimientos", "./06.diseño/encabezado","./06.diseño/equipo",
+  "./06.diseño/especialidades","./06.diseño/formulario", "./06.diseño/habilidades", 
+  "./06.diseño/imagenes", "./06.diseño/lider", "./06.diseño/navegacion",
+  "./06.diseño/pie_pagina","./06.diseño/publicidad",  "./06.diseño/redes_sociales";
+
+@import "./07.paginas/home";
+
+//@import "./08.temas/";

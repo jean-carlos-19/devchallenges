@@ -1,0 +1,28 @@
+{
+  "informacion": [
+    {
+      "fuente_imagen": "../assets/img/frame1.jpeg",
+      "alt": "",
+      "subtitulo": "Full stack application",
+      "titulo": "Smart home dashboard"
+    },
+    {
+      "fuente_imagen": "../assets/img/frame2.jpeg",
+      "alt": "",
+      "subtitulo": "UX/UI design",
+      "titulo": "Onboard application"
+    },
+    {
+      "fuente_imagen": "../assets/img/frame3.png",
+      "alt": "",
+      "subtitulo": "Mobile application",
+      "titulo": "Booking system"
+    },
+    {
+      "fuente_imagen": "../assets/img/frame4.png",
+      "alt": "",
+      "subtitulo": "Front End application",
+      "titulo": "Juice product homepage"
+    }
+  ]
+}

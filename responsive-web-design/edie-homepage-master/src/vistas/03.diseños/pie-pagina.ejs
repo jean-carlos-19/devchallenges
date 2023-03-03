@@ -1,0 +1,33 @@
+<footer class="pie-pagina fon-oscuro-200" id="contacto">
+    <div class="contenido pie-pagina-contenido">
+        <ul class="lista lista-contenido">
+            <% navegacion.informacion.forEach((item)=>{ %>
+
+                <% const {url,nombre} = item; %> 
+                
+                <li class="item item-lista">
+                    <a class="cabecera-3 cabecera-3-item col-blanco-100" href= <%= url %> > <%= nombre %>  </a>
+                </li>
+    
+            <% }); %> 
+        </ul>
+        <%- include("./redes-sociales.ejs") %> 
+        <%- include("./formulario.ejs",{
+            css_class:'"formulario formulario-contenido"'
+        }) %> 
+    </div>
+    <p class="parrafo parrafo-pie-pagina col-secund-gris-600 cuerpo-1">
+        created by
+        <a class="enlace enlace-parrafo col-secund-gris-600 cuerpo-1" href="https://devchallenges.io/portfolio/jean-carlos-19" target="_blank">
+            <b class="negrita">
+                piguavejc
+            </b>    
+        </a>
+        -
+        <a class="enlace enlace-parrafo col-secund-gris-600 cuerpo-1" href="https://devchallenges.io/" target="_blank">
+            <b class="negrita">
+                devChallenges.io
+            </b>
+        </a>
+    </p>
+</footer>

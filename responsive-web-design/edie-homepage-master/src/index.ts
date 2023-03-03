@@ -1,0 +1,15 @@
+import "@img/devchallenges.png";
+import "@img/frame1.jpeg";
+import "@img/frame2.jpeg";
+import "@img/frame3.png";
+import "@img/frame4.png";
+import "@img/instagram.svg";
+import "@img/linkedin.svg";
+import "@img/persona1.png";
+import "@img/persona2.png";
+import "@img/persona3.png";
+import "@img/persona4.png";
+import "@img/portada.png";
+import "@img/twitter.svg";
+import "@scss/main.scss";
+import "@app";

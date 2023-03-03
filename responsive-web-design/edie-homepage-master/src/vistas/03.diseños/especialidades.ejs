@@ -1,0 +1,20 @@
+<section class="especialidades" id="especialidades">
+    <header class="encabezado encabezado-especialidades">
+        <%- include("../01.elementos/cabecera-2.ejs",{
+            css_class:'"cabecera-2 cabecera-2-encabezado col-secund-gris-200"',
+            contenido:"Good design means good business"
+        }) %> 
+    </header>
+    <%- include("./imagenes.ejs") %> 
+    <a class="enlace enlace-especialidades" href="">
+        <%- include("../01.elementos/cabecera-3.ejs",{
+            css_class:'"cabecera-3 cabecera-3-enlace col-prim"',
+            contenido:"see more"
+        }) %> 
+        <%- include("../01.elementos/icono.ejs",{
+            css_class:'"material-icons icono icono-enlace col-prim"',
+            icono:"sarrow_right_alt",
+            codigo:null
+        }) %> 
+    </a>
+</section>

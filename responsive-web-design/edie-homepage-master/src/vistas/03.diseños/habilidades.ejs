@@ -1,0 +1,17 @@
+<div class="habilidades habilidades-conocimientos">
+        
+    <% conocimientos.informacion.forEach((item)=>{ %>
+
+        <% const {titulo,icono,descripcion,url,nombre_url} = item; %> 
+        
+        <%- include("../02.componentes/area.ejs",{
+            icono,
+            titulo,
+            descripcion,
+            url,
+            nombre_url
+        }) %> 
+
+    <% }); %> 
+    
+</div>

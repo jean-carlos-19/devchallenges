@@ -1,0 +1,25 @@
+{
+  "informacion": [
+    {
+      "titulo": "UI/UX Design",
+      "icono": "edit",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.",
+      "url": "/",
+      "nombre_url": "Get started"
+    },
+    {
+      "titulo": "Front End",
+      "icono": "code",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.",
+      "url": "/",
+      "nombre_url": "Get started"
+    },
+    {
+      "titulo": "Back End",
+      "icono": "storage",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.",
+      "url": "/",
+      "nombre_url": "Get started"
+    }
+  ]
+}

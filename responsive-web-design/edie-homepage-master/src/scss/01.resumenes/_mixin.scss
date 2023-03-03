@@ -1,0 +1,60 @@
+@mixin display-flex($direccion, $principal, $secundarios) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundarios;
+}
+
+@mixin cabecera {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin cabecera-1 {
+  @include cabecera();
+  font-weight: 800;
+  font-size: var(--tamano-cabecera-1);
+  line-height: var(--interlineado-cabecera-1);
+}
+
+@mixin cabecera-2 {
+  @include cabecera();
+  font-weight: 500;
+  font-size: var(--tamano-cabecera-2);
+  line-height: var(--interlineado-cabecera-2);
+}
+
+@mixin cabecera-3 {
+  @include cabecera();
+  font-weight: 500;
+  font-size: var(--tamano-cabecera-3);
+  line-height: var(--interlineado-cabecera-3);
+}
+
+@mixin cabecera-4 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-4);
+  line-height: var(--interlineado-cabecera-4);
+}
+
+@mixin cuerpo-1 {
+  @include cabecera();
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano-cuerpo-1);
+  line-height: var(--interlineado-cuerpo-1);
+}
+
+@mixin cuerpo-2 {
+  @include cabecera();
+  font-size: var(--tamano-cuerpo-2);
+  line-height: var(--interlineado-cuerpo-2);
+}
+
+@mixin pie {
+  @include cabecera();
+  font-size: var(--tamano-pie);
+  line-height: var(--interlineado-pie);
+}

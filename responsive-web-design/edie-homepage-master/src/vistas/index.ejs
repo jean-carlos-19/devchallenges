@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Jean Carlos Piguave Alvarado piguavejc@gmail.com" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="../assets/img/devchallenges.png" />
+        <title>Edie Homepage Master</title>
+    </head>
+    <body>
+
+        <%- include("./03.diseños/encabezado.ejs") %> 
+        <main class="home">
+            <%- include("./02.componentes/bienvenido.ejs") %> 
+            <%- include("./02.componentes/portada.ejs",{
+                css_class:'"portada portada-home"',
+                sub_class:'"imagen imagen-portada"',
+                fuente:'"../assets/img/portada.png"',
+                descripcion:'"equipo de trabajo compuesto por 4 personas blancas y un pizarron de lluvia de ideas"',
+            }) %>  
+            <%- include("./03.diseños/publicidad.ejs") %> 
+            <%- include("./03.diseños/conocimientos.ejs") %> 
+            <%- include("./03.diseños/especialidades.ejs") %> 
+            <%- include("./03.diseños/equipo.ejs") %> 
+            <%- include("./03.diseños/lider.ejs") %> 
+        </main>
+        <%- include("./03.diseños/pie-pagina.ejs") %> 
+        <%- include("./03.diseños/navegacion.ejs",{
+            css_class:'"navegacion fon-blanco-100"',
+            sub_class:'"lista lista__menu lista-navegacion"',
+            codigo:null
+        }) %>
+    </body>
+</html>

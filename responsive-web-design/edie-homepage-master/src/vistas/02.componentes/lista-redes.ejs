@@ -1,0 +1,13 @@
+<ul class=<%- css_class %> >
+    <% redes_sociales.informacion.forEach((item)=>{ %>
+
+        <% const {url,fuente,alt} = item; %> 
+        
+        <li>
+            <a href=<%= url %> target="_blank" rel="noopener noreferrer">
+                <img src= <%= fuente %> alt=<%= alt %>  />
+            </a>
+        </li>
+
+    <% }); %> 
+</ul>

@@ -1,0 +1,15 @@
+.lider {
+  margin-top: 6.25rem; /* (100 / 16) */
+  & > * + * {
+    margin-top: 1.125rem; /* (18 / 16) */
+  }
+  .figura-lider {
+    @include display-flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-left: 1.5rem; /* (24 / 16) */
+    }
+    .imagen-figura {
+      width: 8.4375rem; /* (135 / 16) */
+    }
+  }
+}

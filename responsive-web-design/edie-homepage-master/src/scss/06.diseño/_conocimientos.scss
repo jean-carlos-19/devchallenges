@@ -1,0 +1,11 @@
+.conocimientos {
+  margin-top: 6.375rem; /* (102 / 16) */
+  & > * + * {
+    margin-top: 5.75rem; /* (92 / 16) */
+  }
+  .encabezado-conocimientos {
+    position: static;
+    z-index: initial;
+    padding: 0 2.43rem; /* (39 / 16) */
+  }
+}

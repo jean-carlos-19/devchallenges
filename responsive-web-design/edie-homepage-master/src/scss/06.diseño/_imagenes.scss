@@ -1,0 +1,43 @@
+.imagenes {
+  & > * + * {
+    margin-top: 2.25rem; /* (36 / 16) */
+  }
+  .item-imagenes {
+    &:nth-child(1) {
+      .figura-item {
+        background-color: var(--col-rojo-100);
+      }
+    }
+    &:nth-child(2) {
+      .figura-item {
+        background-color: #a7d5b9;
+      }
+    }
+    &:nth-child(3) {
+      .figura-item {
+        background-color: #e6e3ec;
+      }
+    }
+    .figura-item {
+      overflow: hidden;
+      border-radius: var(--border-radius-estandar);
+      .imagen-figura {
+        transform: rotate(-15deg);
+      }
+    }
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    @include display-flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-left: 0.5rem /* (8 / 16) */;
+    }
+    flex-wrap: wrap;
+    .item-imagenes {
+      flex: 1 1 40%;
+      &:nth-child(odd) {
+        margin-top: 11.75rem; /* (188 / 16) */
+      }
+    }
+  }
+}

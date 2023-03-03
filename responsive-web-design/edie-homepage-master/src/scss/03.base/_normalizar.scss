@@ -1,0 +1,45 @@
+:root {
+  @include colores();
+  @include tamano-cabecera-1();
+  @include tamano-cabecera-2();
+  @include tamano-cabecera-3();
+  @include tamano-cabecera-4();
+  @include tamano-cuerpo-1();
+  @include tamano-cuerpo-2();
+  @include tamano-pie();
+  @include rellenos();
+  @include border();
+  @include anchos();
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  z-index: 1;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

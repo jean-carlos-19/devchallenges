@@ -1,0 +1,28 @@
+<ul class="imagenes imagenes-especialidades">
+
+    <% especialidades.informacion.forEach((item)=>{ %>
+
+        <% const {fuente_imagen,alt,subtitulo,titulo} = item; %> 
+        
+        <li class="item item-imagenes">
+            <%- include("../02.componentes/portada.ejs",{
+                css_class:'"figura figura-item"',
+                sub_class:'"imagen imagen-figura"',
+                fuente:fuente_imagen,
+                descripcion:alt
+            }) %> 
+            <div class="detalle detalle-item">
+                <%- include("../01.elementos/cabecera-3.ejs",{
+                    css_class:'"parrafo parrafo-detalle col-secund-gris-400 cuerpo-1"',
+                    contenido:subtitulo
+                }) %> 
+                <%- include("../01.elementos/cabecera-3.ejs",{
+                    css_class:'"cabecera-3 cabecera-3-detalle col-secund-gris-200"',
+                    contenido:titulo
+                }) %> 
+            </div>
+        </li>
+
+    <% }); %> 
+
+</ul>

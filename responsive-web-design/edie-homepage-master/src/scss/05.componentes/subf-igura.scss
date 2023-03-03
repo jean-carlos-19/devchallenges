@@ -1,0 +1,6 @@
+.sub-figura {
+    @include display-flex(column, space-between, center);
+    & > * + * {
+      margin-top: 0.5rem; /* (8 / 16) */
+    }
+  }

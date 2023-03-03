@@ -1,0 +1,13 @@
+.habilidades {
+  & > * + * {
+    margin-top: 7.375rem; /* (118 / 16) */
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    @include display-flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-top: 0;
+      margin-left: 0.5rem; /* (8 / 16) */
+    }
+  }
+}

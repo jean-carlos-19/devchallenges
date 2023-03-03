@@ -1,0 +1,14 @@
+<!-- "navegacion-movil" -->
+<nav class=<%- css_class %>    <%- codigo === null ? (""):(`id= ${codigo} `) %> >
+    <ul class= <%- sub_class %>>
+        <% navegacion.informacion.forEach((item)=>{ %>
+
+            <% const {url,nombre} = item; %> 
+            
+            <li class="item item-lista">
+                <a class="cabecera-3 cabecera-3-item col-secund-gris-200" href= <%= url %> > <%= nombre %>  </a>
+            </li>
+
+        <% }); %> 
+    </ul>
+</nav>

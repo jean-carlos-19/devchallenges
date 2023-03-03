@@ -1,0 +1,23 @@
+.lista {
+  & > * + * {
+    margin-top: 1rem; /* (16 / 16) */
+  }
+
+  &.lista__menu{
+    @include display-flex(column, center, center);
+    & > * + * {
+      margin-top: 0.875rem; /* (14 / 16) */
+    }
+  }
+
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    &.lista__menu{
+      @include display-flex(row, flex-end, flex-start);
+      & > * + * {
+        margin-top: 0;
+        margin-left: 1.5rem; /* (24 / 16) */
+      }
+    }
+  }
+}

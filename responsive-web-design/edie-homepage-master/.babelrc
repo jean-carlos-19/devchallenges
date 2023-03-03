@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/syntax-dynamic-import",
+    "module-resolver",
+    {
+      "root": ["./"],
+      "alias": {
+        "@elementos/*": "./src/ts/01.elementos",
+        "@componentes/*": "./src/ts/02.componentes",
+        "@diseños/*": "./src/ts/03.diseños",
+      }
+    }
+  ],
+}
