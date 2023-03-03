@@ -1,0 +1,14 @@
+.terminos {
+  @include display-flex(row, flex-start, center);
+  & > * + * {
+    margin-top: 0;
+    margin-left: 0.5rem; /*8/16*/
+  }
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    & > * + * {
+      margin-top: 0;
+      margin-left: 0.5rem; /*8/16*/
+    }
+  }
+}

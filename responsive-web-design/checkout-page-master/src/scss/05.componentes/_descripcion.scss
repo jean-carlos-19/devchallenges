@@ -1,0 +1,16 @@
+.descripcion {
+  & > * + * {
+    margin-top: 0.34rem; /*5.49/16*/
+  }
+  .cabecera-3-descripcion {
+    .parrafo-cabecera-3 {
+      text-decoration: line-through;
+      margin-left: 0.5rem; /*8/16*/
+    }
+  }
+  @media screen and (min-width: 60rem) {
+    & > * + * {
+      margin-top: 0.37rem; /*6/16*/
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "informacion": [
+    {
+      "origen": "../assets/img/photo1.png",
+      "alt": "mochila clasica color gris y cafe",
+      "nombre": "Vintage Bacbag",
+      "precio_anterior": "54.99",
+      "precio_nuevo": "94.99"
+    },
+    {
+      "origen": "../assets/img/photo2.png",
+      "alt": "zapatos conver color azules talla 8",
+      "nombre": "Levi Shoes",
+      "precio_anterior": "74.99",
+      "precio_nuevo": "124.99"
+    }
+  ]
+}

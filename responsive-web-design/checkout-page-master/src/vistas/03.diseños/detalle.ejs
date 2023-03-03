@@ -1,0 +1,11 @@
+<div class="detalle detalle-venta">
+    
+    <% detalles.informacion.forEach((detalle)=>{ %>
+    
+        <% const {nombre,descripcion} = detalle; %> 
+
+        <%- include("../02.componentes/envio.ejs",{nombre,descripcion}) %>    
+    
+    <% }); %> 
+
+</div>

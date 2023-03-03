@@ -1,0 +1,16 @@
+<form class="formulario formulario-articulo">
+    <%- include("./fila.ejs") %>
+
+    <%- include("../01.elementos/boton.ejs",{
+        css_class:'"boton boton-formulario fon-prim col-blanco cabecera-2"',
+        valor:"continue",
+        titulo:"enviar",
+        codigo:"enviar", 
+        habilitado:false
+    })%> 
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"confirmacion-formulario"
+    }) %>
+
+</form>

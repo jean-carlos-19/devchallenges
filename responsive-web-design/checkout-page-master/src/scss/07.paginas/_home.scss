@@ -1,0 +1,24 @@
+.home {
+  margin: 0 auto;
+  padding: var(--relleno-movil);
+  max-width: var(--ancho-maximo);
+  & > * + * {
+    margin-top: 1.31rem; /* 20.96/16 */
+
+    &:last-child {
+      margin-top: 5.93rem; /* 94.98/16*/
+    }
+  }
+  // Escritorio
+  @media screen and (min-width: 50rem) {
+    padding: var(--relleno-escritorio);
+
+    & > * + * {
+      margin-top: 3.18rem; /* 50.94/16 */
+
+      &:last-child {
+        margin-top: 9.93rem; /* 159/16*/
+      }
+    }
+  }
+}

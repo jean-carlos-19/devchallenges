@@ -1,0 +1,11 @@
+.boton {
+  
+    padding: 1.06rem 2.81rem; /* 17/16 , 45/16*/
+    border: none;
+    border-radius: var(--tamano-border); /*12/16*/
+    cursor: pointer;
+    &:active {
+        box-shadow: 0px 0px 16px var(--col-oscuro);
+    }
+    
+}

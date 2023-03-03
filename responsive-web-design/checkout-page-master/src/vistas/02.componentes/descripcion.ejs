@@ -1,0 +1,10 @@
+<header class="descripcion descripcion-contenido">
+    <%- include("../01.elementos/parrafo.ejs",{
+        css_class:'"parrafo parrafo-descripcion col-oscuro cuerpo-1"',
+        contenido:nombre
+    }) %> 
+    <h3 class="cabecera-3 cabecera-3-descripcion col-prim">
+        $ <%= precio_anterior %>
+        <span class="parrafo parrafo-cabecera-3 col-oscuro cuerpo-2"> $ <%= precio_nuevo %> </span>
+    </h3>
+</header>

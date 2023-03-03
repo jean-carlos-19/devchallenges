@@ -1,0 +1,14 @@
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@elementos": "./src/ts/01.elementos",
+            "@compoentes": "./src/ts/02.componentes",
+            "@diseños": "./src/ts/03.diseños",
+          }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+.fila {
+  width: 100%;
+  & > * + * {
+    margin-top: 1.03rem; /*16.52/16*/
+  }
+
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    & > * + * {
+      margin-top: 1.25rem; /*20.01/16*/
+    }
+  
+    #campo-country, #campo-postal-code{
+      width: 49%;
+      display: inline-block;
+    }
+    #campo-postal-code{
+      margin-left: .4rem;
+    }
+  }
+}

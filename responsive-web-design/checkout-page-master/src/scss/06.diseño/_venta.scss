@@ -1,0 +1,19 @@
+.venta {
+
+  padding: 1.91rem; /*30.56/16*/
+  border-radius: var(--tamano-border); /*12/16*/
+
+  & > * + * {
+    margin-top: 5.42rem; /*86.79/16*/
+  }
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    width: 45%;
+    padding: 2.08rem; /*33.41/16*/
+    order: 2;
+
+    & > * + * {
+      margin-top: 5.99rem; /*95.94/16*/
+    }
+  }
+}

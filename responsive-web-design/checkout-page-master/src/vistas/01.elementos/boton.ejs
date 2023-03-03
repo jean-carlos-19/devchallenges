@@ -1,0 +1,8 @@
+<input
+    class= <%- `${css_class}` %> 
+    type = "button"
+    value = <%= valor %>
+    title = <%= titulo %>
+    <%- codigo === null ? (""):(`id= ${codigo} `) %>
+    disabled = <%= habilitado %>
+/>

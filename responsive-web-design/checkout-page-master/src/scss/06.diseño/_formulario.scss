@@ -1,0 +1,20 @@
+.formulario {
+  height: auto;
+  & > * + * {
+    margin-top: 2.81rem; /*45.04/16*/
+  }
+
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    width: 50%;
+    order: 1;
+    @include display-flex(column,flex-start,flex-start);
+    & > * + * {
+      margin-top: 3.62rem; /*58.01/16*/
+    }
+
+    .boton-formulario{
+      align-self: flex-end;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@mixin display-flex($direccion, $principal, $secundaria) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundaria;
+}
+@mixin cabecera {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+@mixin cabecera-1 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-1);
+  line-height: var(--interlineado-cabecera-1);
+  transform: rotate(-0.02deg);
+}
+@mixin cabecera-2 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-2);
+  line-height: var(--interlineado-cabecera-2);
+  transform: rotate(-0.02deg);
+}
+@mixin cabecera-3 {
+  @include cabecera();
+  font-size: var(--tamano-cabecera-3);
+  line-height: var(--interlineado-cabecera-3);
+  transform: rotate(-0.02deg);
+}
+@mixin cuerpo-1 {
+  @include cabecera();
+  font-size: var(--tamano-cuerpo-1);
+  line-height: var(--interlineado-cuerpo-1);
+}
+@mixin cuerpo-2 {
+  @include cabecera();
+  font-size: var(--tamano-cuerpo-2);
+  line-height: var(--interlineado-cuerpo-2);
+}

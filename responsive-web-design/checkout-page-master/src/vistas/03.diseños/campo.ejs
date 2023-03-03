@@ -1,0 +1,15 @@
+<div class="campo campo-fila"  <%- id_contenedor === null ? (""):(`id= ${id_contenedor} `) %>  >
+
+    <%- include("../01.elementos/etiqueta.ejs",{
+        css_class:'"etiqueta etiqueta-campo col-gris-200 cuerpo-2"',
+        id,
+        nombre
+    }) %> 
+    <%- include("../02.componentes/caja.ejs",{
+        icono,
+        tipo,
+        name,
+        id,
+        placeholder
+    }) %> 
+</div>

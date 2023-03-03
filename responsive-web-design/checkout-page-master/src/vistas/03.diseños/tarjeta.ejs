@@ -1,0 +1,18 @@
+<% productos.informacion.forEach((mercaderia)=>{ %>
+    
+    <% let {origen, alt, nombre, precio_anterior, precio_nuevo} = mercaderia; %>
+
+    <div class="tarjeta tarjeta-producto">
+    
+        <%- include("../02.componentes/figura.ejs",{
+            origen,
+            alt
+        } ) %> 
+        <%- include("../03.diseños/contenido.ejs",{
+            nombre,
+            precio_anterior,
+            precio_nuevo
+        } ) %> 
+       
+    </div>
+<% }); %> 

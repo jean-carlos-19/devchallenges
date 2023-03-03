@@ -1,0 +1,6 @@
+.tarjeta {
+  @include display-flex(row, space-between, center);
+  & > * + * {
+    margin-left: 1rem; /*16/16*/
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+  /*
+  movil:(x=375,y=1331)
+  escritorio:(x=1440,y=1140)
+*/
+
+  @include colores();
+  @include border();
+  @include tamano-cabecera-1();
+  @include tamano-cabecera-2();
+  @include tamano-cabecera-3();
+  @include tamano-cuerpo-1();
+  @include tamano-cuerpo-2();
+  @include rellenos();
+  @include anchos();
+
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+body {
+  animation: aparece-sitio 0.8s linear;
+}
+a {
+  text-decoration: none;
+  color: var(--col-secund-oscuro);
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+input[type="text"],
+input[type="email"] {
+  border: none;
+}

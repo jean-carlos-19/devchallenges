@@ -1,0 +1,116 @@
+<section class="fila fila-formulario">
+
+    <%- include("../01.elementos/cabecera-3.ejs",{
+        css_class:'"cabecera-3 cabecera-3-formulario col-gris-100"',
+        contenido:"Contact infomation" }) 
+    %>
+
+    <%- include("./campo.ejs",{
+        nombre:"E-mail",
+        tipo:"email",
+        icono:"email",
+        id:"email",
+        name:"email",
+        placeholder:'"Enter your email..."',
+        id_contenedor:null
+    } ) %>
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"advertencia-correo"
+    }) %>
+
+    <%- include("./campo.ejs",{
+        nombre:"Phone",
+        tipo:"text",
+        icono:"phone",
+        id:"phone",
+        name:"phone",
+        placeholder:'"Enter your phone..."',
+        id_contenedor:null
+    }) %>
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"advertencia-telefono"
+    }) %>
+
+</section>
+
+<section class="fila fila-formulario">
+
+    <%- include("../01.elementos/cabecera-3.ejs",{ 
+        css_class:'"cabecera-3 cabecera-formulario col-gris-100"',
+        contenido:"Shipping address" 
+    }) %>
+
+    <%- include("./campo.ejs",{
+        nombre:"Full Name",
+        tipo:"text",
+        icono:"account_circle",
+        id:"fullname",
+        name:"fullname",
+        placeholder:'"Rodney Cotton"',
+        id_contenedor:null
+    }) %>
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"advertencia-nombres-completo"
+    }) %>
+
+    <%- include("./campo.ejs",{
+        nombre:"Adress",
+        tipo:"text",
+        icono:"home",
+        id:"address",
+        name:"address",
+        placeholder:'"Your address.."',
+        id_contenedor:null
+    }) %>
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"advertencia-direccion"
+    }) %>
+
+
+    <%- include("./campo.ejs",{
+        nombre:"City",
+        tipo:"text",
+        icono:"location_city",
+        id:"city",
+        name:"city",
+        placeholder:'"Your city.."',
+        id_contenedor:null
+    }) %>
+
+    <%- include("../02.componentes/mensaje.ejs",{
+        id:"advertencia-ciudad"
+    }) %>
+
+
+    <%- include("./campo.ejs",{
+        nombre:"Country",
+        tipo:"text",
+        icono:"public",
+        id:"country",
+        name:"country",
+        placeholder:'"Your country..."',
+        id_contenedor:"campo-country"
+    }) %>
+
+    <%- include("./campo.ejs",{
+        nombre:"Postal Code",
+        tipo:"text",
+        icono:"markunread_mailbox",
+        id:"postal-code",
+        name:"postal-code",
+        placeholder:'"Your postal code.."',
+        id_contenedor:"campo-postal-code"
+    }) %>
+
+    <%- include("../02.componentes/ubicacion.ejs") %> 
+
+    <%- include("../02.componentes/terminos.ejs") %> 
+
+
+
+
+</section>

@@ -1,0 +1,5 @@
+.envio {
+  padding: 0.81rem 0; /* 13/16*/
+  border-top: 1px solid var(--col-gris-400);
+  @include display-flex(row, space-between, center);
+}

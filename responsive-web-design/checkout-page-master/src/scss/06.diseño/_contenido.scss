@@ -1,0 +1,12 @@
+.contenido {
+  & > * + * {
+    margin-top: 1.38rem; /*22.13/16*/
+  }
+  // Escritorio
+  @media screen and (min-width: 60rem) {
+    width: 70%; /* (134.25/383)*100 */
+    & > * + * {
+      margin-top: 2.06rem; /*33.05/16*/
+    }
+  }
+}
