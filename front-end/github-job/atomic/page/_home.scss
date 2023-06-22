@@ -1,8 +1,32 @@
 .home {
     padding: 1rem;
+    @include owl-selector-top(2.25rem);
 
-    &>*+* {
-        margin-top: 2.25rem;
+    form {
+        @include owl-selector-top(2rem);
+
+        .check {
+            @include owl-selector-left(.5rem);
+        }
+
+        .location {
+            @include owl-selector-top(.5rem);
+
+            .input-location {
+                padding: 1rem 1rem;
+                border-radius: 4px;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+                @include owl-selector-left(.5rem);
+                @include display-flex(row,flex-start,center);
+
+                .icon-input{
+                    flex:0 1 10%;
+                }
+                .field-input{
+                    flex:0 2 calc(100% - (10% + 1rem));
+                }
+            }
+        }
     }
 
     .form-home {
@@ -17,25 +41,24 @@
         background-size: cover;
         @include display-flex(row, center, center);
 
+
         .search {
             width: inherit;
             padding: .1rem .1rem .1rem 1rem;
             border-radius: .25rem;
             box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
             @include display-flex(row, flex-start, center);
-            &>*+*{
-                margin-left: .5rem;
+            @include owl-selector-left(.5rem);
+
+            .icon-search {
+                flex: 0 1 5%;
             }
 
-            .icon-search{
-               flex: 0 1 5%;
-            }
-
-            .field-search{
+            .field-search {
                 flex: 0 1 60%;
             }
 
-            .button-search{
+            .button-search {
                 flex: 0 1 25%;
                 border-radius: .25rem;
                 padding: .75rem 1.5rem;
