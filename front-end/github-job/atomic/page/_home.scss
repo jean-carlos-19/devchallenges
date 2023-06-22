@@ -17,13 +17,14 @@
                 border-radius: 4px;
                 box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
                 @include owl-selector-left(.5rem);
-                @include display-flex(row,flex-start,center);
+                @include display-flex(row, flex-start, center);
 
-                .icon-input{
-                    flex:0 1 10%;
+                .icon-input {
+                    flex: 0 1 10%;
                 }
-                .field-input{
-                    flex:0 2 calc(100% - (10% + 1rem));
+
+                .field-input {
+                    flex: 0 2 calc(100% - (10% + 1rem));
                 }
             }
         }
@@ -62,6 +63,40 @@
                 flex: 0 1 25%;
                 border-radius: .25rem;
                 padding: .75rem 1.5rem;
+            }
+        }
+    }
+
+    .repository {
+        @include owl-selector-top(2.25rem);
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+
+        .card {
+            padding: 1rem .5rem;
+            border-radius:.5rem; 
+
+            .figure{
+                @include display-flex(row,flex-start,flex-start);
+                @include owl-selector-left(1rem);
+                img {
+                    width: 5.625rem;
+                    height: 5.625rem;
+                    object-fit: cover;
+                }
+                figcaption{
+                    @include owl-selector-top(1rem);
+                }
+            }
+
+            .time {
+                @include display-flex(row, flex-end, center);
+                @include owl-selector-left(2rem);
+
+                div {
+                    @include display-flex(row, flex-end, center);
+                    @include owl-selector-left(.25rem);
+                }
             }
         }
     }
