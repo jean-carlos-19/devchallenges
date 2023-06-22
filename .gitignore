@@ -58,10 +58,8 @@ bower_components
 build/Release
 
 # Dependency directories
-404/node_modules/
-team-page/node_modules/
-interior-consultant/node_modules/
-jspm_packages/
+*/node_modules/
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
