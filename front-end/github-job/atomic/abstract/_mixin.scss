@@ -1,8 +1,17 @@
-
 @mixin display-flex($direcction,$main-axis,$secondary-axis){
     display: flex;
     flex-direction: $direcction;
     justify-content: $main-axis;
     align-items: $secondary-axis;
     flex-wrap: wrap;
+}
+@mixin owl-selector-top($size){
+    & > * + *{
+        margin-top: $size;
+    }
+}
+@mixin owl-selector-left($size){
+    & > * + *{
+        margin-left: $size;
+    }
 }
