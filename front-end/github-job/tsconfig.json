@@ -24,6 +24,9 @@
       "@/App/domain/entity": ["./src/app/domain/entity"],
       "@/App/domain/service": ["./src/app/domain/service"],
 
+      "@/App/infrastructure/http": ["./src/app/infrastructure/http"],
+      "@/App/infrastructure/repository": ["./src/app/infrastructure/repository"],
+
       "@/App/presentation/design": ["./src/app/presentation/design"]
     }
   },
