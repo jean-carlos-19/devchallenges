@@ -1,0 +1,1 @@
+export type {Github_Service} from "./github.service";
