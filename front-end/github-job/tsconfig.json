@@ -20,6 +20,10 @@
       }
     ],
     "paths": {
+      "@/App/domain/dto": ["./src/app/domain/dto"],
+      "@/App/domain/entity": ["./src/app/domain/entity"],
+      "@/App/domain/service": ["./src/app/domain/service"],
+
       "@/App/presentation/design": ["./src/app/presentation/design"]
     }
   },
